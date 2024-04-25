@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file name=".\CustomSerializationMethodCheck.java">
+<violation beginline="17" endline="17" begincolumn="3" endcolumn="64" rule="CustomSerializationMethodCheck" ruleset="Sonar" class="B" method="writeObject" priority="1">
+Custom serialization method signatures should meet requirements
+</violation>
+<violation beginline="18" endline="18" begincolumn="3" endcolumn="85" rule="CustomSerializationMethodCheck" ruleset="Sonar" class="B" method="readObject" priority="1">
+Custom serialization method signatures should meet requirements
+</violation>
+<violation beginline="19" endline="19" begincolumn="3" endcolumn="57" rule="CustomSerializationMethodCheck" ruleset="Sonar" class="B" method="readObjectNoData" priority="1">
+Custom serialization method signatures should meet requirements
+</violation>
+<violation beginline="23" endline="23" begincolumn="18" endcolumn="79" rule="CustomSerializationMethodCheck" ruleset="Sonar" class="C" method="writeObject" priority="1">
+Custom serialization method signatures should meet requirements
+</violation>
+<violation beginline="24" endline="24" begincolumn="18" endcolumn="100" rule="CustomSerializationMethodCheck" ruleset="Sonar" class="C" method="readObject" priority="1">
+Custom serialization method signatures should meet requirements
+</violation>
+<violation beginline="25" endline="25" begincolumn="18" endcolumn="72" rule="CustomSerializationMethodCheck" ruleset="Sonar" class="C" method="readObjectNoData" priority="1">
+Custom serialization method signatures should meet requirements
+</violation>
+<violation beginline="26" endline="26" begincolumn="10" endcolumn="62" rule="CustomSerializationMethodCheck" ruleset="Sonar" class="C" method="writeReplace" priority="1">
+Custom serialization method signatures should meet requirements
+</violation>
+<violation beginline="27" endline="27" begincolumn="10" endcolumn="61" rule="CustomSerializationMethodCheck" ruleset="Sonar" class="C" method="readResolve" priority="1">
+Custom serialization method signatures should meet requirements
+</violation>
+<violation beginline="39" endline="39" begincolumn="3" endcolumn="56" rule="CustomSerializationMethodCheck" ruleset="Sonar" class="E" method="writeReplace" priority="1">
+Custom serialization method signatures should meet requirements
+</violation>
+<violation beginline="40" endline="40" begincolumn="3" endcolumn="54" rule="CustomSerializationMethodCheck" ruleset="Sonar" class="E" method="readResolve" priority="1">
+Custom serialization method signatures should meet requirements
+</violation>
+</file>

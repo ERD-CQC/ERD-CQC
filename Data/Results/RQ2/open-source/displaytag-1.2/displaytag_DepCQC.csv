@@ -1,0 +1,13 @@
+﻿Problem,Package,File,Priority,Line,Description,Rule set,Rule
+1,org.displaytag.filter,displaytag-1.2/displaytag/src/main/java/org/displaytag/filter/BufferedResponseWrapper.java,2,29,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+1,org.displaytag.render,displaytag-1.2/displaytag/src/main/java/org/displaytag/render/HtmlTableWriter.java,2,196,Short-circuit logic should be used in boolean contexts,Sonar,NonShortCircuitLogicCheck
+1,org.displaytag.util,displaytag-1.2/displaytag/src/main/java/org/displaytag/util/MediaUtil.java,2,126,Inappropriate Collection calls should not be made,Sonar,CollectionInappropriateCallsCheck
+1,org.displaytag.properties,displaytag-1.2/displaytag/src/main/java/org/displaytag/properties/TableProperties.java,2,1194,Instance methods should not write to static fields,Sonar,StaticFieldUpateCheck
+2,org.displaytag.properties,displaytag-1.2/displaytag/src/main/java/org/displaytag/properties/TableProperties.java,2,1218,Instance methods should not write to static fields,Sonar,StaticFieldUpateCheck
+1,org.displaytag.jsptests,displaytag-1.2/displaytag/src/test/java/org/displaytag/jsptests/Displ107Test.java,2,71,The value returned from a stream read should be checked,Sonar,IgnoredStreamReturnValueCheck
+1,org.displaytag.tags,displaytag-1.2/displaytag/src/main/java/org/displaytag/tags/TableTag.java,2,924,Instance methods should not write to static fields,Sonar,StaticFieldUpateCheck
+1,com.meterware.servletunit,displaytag-1.2/displaytag/src/test/java/com/meterware/servletunit/ServletUnitHttpRequest.java,2,115,Cookies should be secure,Sonar,SecureCookieCheck
+1,org.displaytag.jsptests,displaytag-1.2/displaytag/src/test/java/org/displaytag/jsptests/Displ298PdfTest.java,2,55,The value returned from a stream read should be checked,Sonar,IgnoredStreamReturnValueCheck
+1,org.displaytag.jsptests,displaytag-1.2/displaytag/src/test/java/org/displaytag/jsptests/ExportPdfFilterTest.java,2,62,The value returned from a stream read should be checked,Sonar,IgnoredStreamReturnValueCheck
+1,org.displaytag.jsptests,displaytag-1.2/displaytag/src/test/java/org/displaytag/jsptests/ExportPdfTest.java,2,58,The value returned from a stream read should be checked,Sonar,IgnoredStreamReturnValueCheck
+1,org.displaytag.test,displaytag-1.2/displaytag/src/test/java/org/displaytag/test/KnownTypes.java,2,23,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck

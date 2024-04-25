@@ -1,0 +1,242 @@
+﻿Problem,Package,File,Priority,Line,Description,Rule set,Rule
+1,org.apache.poi,poi-3.6/src/contrib/poi-ruby/java/org/apache/poi/RubyOutputStream.java,2,41,The Object.finalize() method should not be overriden,Sonar,ObjectFinalizeOverridenCheck
+1,org.apache.poi.contrib.poibrowser,poi-3.6/src/contrib/src/org/apache/poi/contrib/poibrowser/POIBrowser.java,2,72,Exit methods should not be called,Sonar,SystemExitCalledCheck
+2,org.apache.poi.contrib.poibrowser,poi-3.6/src/contrib/src/org/apache/poi/contrib/poibrowser/POIBrowser.java,2,115,Exit methods should not be called,Sonar,SystemExitCalledCheck
+1,org.apache.poi.contrib.poibrowser,poi-3.6/src/contrib/src/org/apache/poi/contrib/poibrowser/Codec.java,2,80,Ints and longs should not be shifted by zero or more than their number of bits-1,Sonar,ShiftOnIntOrLongCheck
+2,org.apache.poi.contrib.poibrowser,poi-3.6/src/contrib/src/org/apache/poi/contrib/poibrowser/Codec.java,2,94,Ints and longs should not be shifted by zero or more than their number of bits-1,Sonar,ShiftOnIntOrLongCheck
+3,org.apache.poi.contrib.poibrowser,poi-3.6/src/contrib/src/org/apache/poi/contrib/poibrowser/Codec.java,2,110,Ints and longs should not be shifted by zero or more than their number of bits-1,Sonar,ShiftOnIntOrLongCheck
+4,org.apache.poi.contrib.poibrowser,poi-3.6/src/contrib/src/org/apache/poi/contrib/poibrowser/Codec.java,2,130,Ints and longs should not be shifted by zero or more than their number of bits-1,Sonar,ShiftOnIntOrLongCheck
+1,org.apache.poi.hssf.contrib.view,poi-3.6/src/contrib/src/org/apache/poi/hssf/contrib/view/SVFractionalFormat.java,2,216,toString() and clone() methods should not return null,Sonar,ToStringReturningNullCheck
+1,org.apache.poi.hssf.contrib.view,poi-3.6/src/contrib/src/org/apache/poi/hssf/contrib/view/SVTableUtils.java,2,40,public static fields should be constant,Sonar,PublicStaticFieldShouldBeFinalCheck
+1,org.apache.poi.hssf.contrib.view,poi-3.6/src/contrib/src/org/apache/poi/hssf/contrib/view/SViewer.java,2,63,Exit methods should not be called,Sonar,SystemExitCalledCheck
+2,org.apache.poi.hssf.contrib.view,poi-3.6/src/contrib/src/org/apache/poi/hssf/contrib/view/SViewer.java,2,155,Exit methods should not be called,Sonar,SystemExitCalledCheck
+1,org.apache.poi.hssf.contrib.view,poi-3.6/src/contrib/src/org/apache/poi/hssf/contrib/view/SVTableCellRenderer.java,2,42,The non-serializable super class of a Serializable class should have a no-argument constructor,Sonar,SerializableSuperConstructorCheck
+1,org.apache.poi.hssf.contrib.view,poi-3.6/src/contrib/src/org/apache/poi/hssf/contrib/view/SViewerPanel.java,2,273,Exit methods should not be called,Sonar,SystemExitCalledCheck
+1,org.apache.poi.hssf.usermodel.examples,poi-3.6/src/examples/src/org/apache/poi/hssf/usermodel/examples/AddDimensionedImage.java,2,865,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+1,org.apache.poi.ss.examples,poi-3.6/src/examples/src/org/apache/poi/ss/examples/BusinessPlan.java,2,39,Non-thread-safe fields should not be static,Sonar,StaticMultithreadedUnsafeFieldsCheck
+1,org.apache.poi.hpsf,poi-3.6/src/java/org/apache/poi/hpsf/Thumbnail.java,2,35,public static fields should be constant,Sonar,PublicStaticFieldShouldBeFinalCheck
+2,org.apache.poi.hpsf,poi-3.6/src/java/org/apache/poi/hpsf/Thumbnail.java,2,45,public static fields should be constant,Sonar,PublicStaticFieldShouldBeFinalCheck
+3,org.apache.poi.hpsf,poi-3.6/src/java/org/apache/poi/hpsf/Thumbnail.java,2,63,public static fields should be constant,Sonar,PublicStaticFieldShouldBeFinalCheck
+4,org.apache.poi.hpsf,poi-3.6/src/java/org/apache/poi/hpsf/Thumbnail.java,2,71,public static fields should be constant,Sonar,PublicStaticFieldShouldBeFinalCheck
+5,org.apache.poi.hpsf,poi-3.6/src/java/org/apache/poi/hpsf/Thumbnail.java,2,79,public static fields should be constant,Sonar,PublicStaticFieldShouldBeFinalCheck
+6,org.apache.poi.hpsf,poi-3.6/src/java/org/apache/poi/hpsf/Thumbnail.java,2,87,public static fields should be constant,Sonar,PublicStaticFieldShouldBeFinalCheck
+7,org.apache.poi.hpsf,poi-3.6/src/java/org/apache/poi/hpsf/Thumbnail.java,2,95,public static fields should be constant,Sonar,PublicStaticFieldShouldBeFinalCheck
+8,org.apache.poi.hpsf,poi-3.6/src/java/org/apache/poi/hpsf/Thumbnail.java,2,105,public static fields should be constant,Sonar,PublicStaticFieldShouldBeFinalCheck
+9,org.apache.poi.hpsf,poi-3.6/src/java/org/apache/poi/hpsf/Thumbnail.java,2,110,public static fields should be constant,Sonar,PublicStaticFieldShouldBeFinalCheck
+10,org.apache.poi.hpsf,poi-3.6/src/java/org/apache/poi/hpsf/Thumbnail.java,2,115,public static fields should be constant,Sonar,PublicStaticFieldShouldBeFinalCheck
+11,org.apache.poi.hpsf,poi-3.6/src/java/org/apache/poi/hpsf/Thumbnail.java,2,124,public static fields should be constant,Sonar,PublicStaticFieldShouldBeFinalCheck
+1,org.apache.poi.hpsf.wellknown,poi-3.6/src/java/org/apache/poi/hpsf/wellknown/SectionIDMap.java,2,44,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+2,org.apache.poi.hpsf.wellknown,poi-3.6/src/java/org/apache/poi/hpsf/wellknown/SectionIDMap.java,2,56,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+1,org.apache.poi.hpsf,poi-3.6/src/java/org/apache/poi/hpsf/VariantSupport.java,2,113,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+1,org.apache.poi.hssf.model,poi-3.6/src/java/org/apache/poi/hssf/model/LinkTable.java,2,286,Collection methods with O(n) performance should be used carefully,Sonar,CollectionMethodsWithLinearComplexityCheck
+1,org.apache.poi.hssf.model,poi-3.6/src/java/org/apache/poi/hssf/model/WorkbookRecordList.java,2,82,Inappropriate Collection calls should not be made,Sonar,CollectionInappropriateCallsCheck
+1,org.apache.poi.hssf.dev,poi-3.6/src/java/org/apache/poi/hssf/dev/BiffViewer.java,2,393,The value returned from a stream read should be checked,Sonar,IgnoredStreamReturnValueCheck
+1,org.apache.poi.hssf.record,poi-3.6/src/java/org/apache/poi/hssf/record/EmbeddedObjectRefSubRecord.java,2,269,Switch cases should end with an unconditional break statement,Sonar,SwitchCasesWithoutBreakCheck
+1,org.apache.poi.hssf.record,poi-3.6/src/java/org/apache/poi/hssf/record/SSTRecord.java,2,294,Identical expressions should not be used on both sides of a binary operator,Sonar,IdenticalOperandOnBinaryExpressionCheck
+1,org.apache.poi.hssf.model,poi-3.6/src/java/org/apache/poi/hssf/model/Workbook.java,2,285,Switch cases should end with an unconditional break statement,Sonar,SwitchCasesWithoutBreakCheck
+2,org.apache.poi.hssf.model,poi-3.6/src/java/org/apache/poi/hssf/model/Workbook.java,2,497,Inappropriate Collection calls should not be made,Sonar,CollectionInappropriateCallsCheck
+3,org.apache.poi.hssf.model,poi-3.6/src/java/org/apache/poi/hssf/model/Workbook.java,2,593,Collection methods with O(n) performance should be used carefully,Sonar,CollectionMethodsWithLinearComplexityCheck
+4,org.apache.poi.hssf.model,poi-3.6/src/java/org/apache/poi/hssf/model/Workbook.java,2,712,Collection methods with O(n) performance should be used carefully,Sonar,CollectionMethodsWithLinearComplexityCheck
+5,org.apache.poi.hssf.model,poi-3.6/src/java/org/apache/poi/hssf/model/Workbook.java,2,800,Inappropriate Collection calls should not be made,Sonar,CollectionInappropriateCallsCheck
+6,org.apache.poi.hssf.model,poi-3.6/src/java/org/apache/poi/hssf/model/Workbook.java,2,1858,Inappropriate Collection calls should not be made,Sonar,CollectionInappropriateCallsCheck
+1,org.apache.poi.hssf.record,poi-3.6/src/java/org/apache/poi/hssf/record/UnicodeString.java,2,365,Collection methods with O(n) performance should be used carefully,Sonar,CollectionMethodsWithLinearComplexityCheck
+1,org.apache.poi.hssf.record.aggregates,poi-3.6/src/java/org/apache/poi/hssf/record/aggregates/ColumnInfoRecordsAggregate.java,2,445,Collection methods with O(n) performance should be used carefully,Sonar,CollectionMethodsWithLinearComplexityCheck
+2,org.apache.poi.hssf.record.aggregates,poi-3.6/src/java/org/apache/poi/hssf/record/aggregates/ColumnInfoRecordsAggregate.java,2,450,Collection methods with O(n) performance should be used carefully,Sonar,CollectionMethodsWithLinearComplexityCheck
+1,org.apache.poi.hssf.record.crypto,poi-3.6/src/java/org/apache/poi/hssf/record/crypto/Biff8EncryptionKey.java,2,41,Ints and longs should not be shifted by zero or more than their number of bits-1,Sonar,ShiftOnIntOrLongCheck
+2,org.apache.poi.hssf.record.crypto,poi-3.6/src/java/org/apache/poi/hssf/record/crypto/Biff8EncryptionKey.java,2,41,Ints and longs should not be shifted by zero or more than their number of bits-1,Sonar,ShiftOnIntOrLongCheck
+1,org.apache.poi.hssf.record.formula.atp,poi-3.6/src/java/org/apache/poi/hssf/record/formula/atp/YearFrac.java,2,68,Switch cases should end with an unconditional break statement,Sonar,SwitchCasesWithoutBreakCheck
+1,org.apache.poi.hssf.record.formula.eval,poi-3.6/src/java/org/apache/poi/hssf/record/formula/eval/OperandResolver.java,2,285,Null should not be returned from a Boolean method,Sonar,BooleanMethodReturnCheck
+2,org.apache.poi.hssf.record.formula.eval,poi-3.6/src/java/org/apache/poi/hssf/record/formula/eval/OperandResolver.java,2,292,Null should not be returned from a Boolean method,Sonar,BooleanMethodReturnCheck
+3,org.apache.poi.hssf.record.formula.eval,poi-3.6/src/java/org/apache/poi/hssf/record/formula/eval/OperandResolver.java,2,297,Null should not be returned from a Boolean method,Sonar,BooleanMethodReturnCheck
+1,org.apache.poi.hssf.record.formula.functions,poi-3.6/src/java/org/apache/poi/hssf/record/formula/functions/FinanceFunction.java,2,83,Switch cases should end with an unconditional break statement,Sonar,SwitchCasesWithoutBreakCheck
+2,org.apache.poi.hssf.record.formula.functions,poi-3.6/src/java/org/apache/poi/hssf/record/formula/functions/FinanceFunction.java,2,85,Switch cases should end with an unconditional break statement,Sonar,SwitchCasesWithoutBreakCheck
+1,org.apache.poi.hssf.record.formula.functions,poi-3.6/src/java/org/apache/poi/hssf/record/formula/functions/Offset.java,2,178,Switch cases should end with an unconditional break statement,Sonar,SwitchCasesWithoutBreakCheck
+1,org.apache.poi.hssf.record.formula.functions,poi-3.6/src/java/org/apache/poi/hssf/record/formula/functions/Countif.java,2,510,Null should not be returned from a Boolean method,Sonar,BooleanMethodReturnCheck
+2,org.apache.poi.hssf.record.formula.functions,poi-3.6/src/java/org/apache/poi/hssf/record/formula/functions/Countif.java,2,526,Null should not be returned from a Boolean method,Sonar,BooleanMethodReturnCheck
+1,org.apache.poi.hssf.usermodel,poi-3.6/src/java/org/apache/poi/hssf/usermodel/DummyGraphics2d.java,2,675,The Object.finalize() method should not be overriden,Sonar,ObjectFinalizeOverridenCheck
+1,org.apache.poi.poifs.common,poi-3.6/src/java/org/apache/poi/poifs/common/POIFSConstants.java,2,39,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+1,org.apache.poi.poifs.dev,poi-3.6/src/java/org/apache/poi/poifs/dev/POIFSDump.java,2,58,The value returned from a stream read should be checked,Sonar,IgnoredStreamReturnValueCheck
+1,org.apache.poi.hssf.usermodel,poi-3.6/src/java/org/apache/poi/hssf/usermodel/HSSFCell.java,2,466,Switch cases should end with an unconditional break statement,Sonar,SwitchCasesWithoutBreakCheck
+2,org.apache.poi.hssf.usermodel,poi-3.6/src/java/org/apache/poi/hssf/usermodel/HSSFCell.java,2,737,Switch cases should end with an unconditional break statement,Sonar,SwitchCasesWithoutBreakCheck
+3,org.apache.poi.hssf.usermodel,poi-3.6/src/java/org/apache/poi/hssf/usermodel/HSSFCell.java,2,761,Switch cases should end with an unconditional break statement,Sonar,SwitchCasesWithoutBreakCheck
+1,org.apache.poi.poifs.eventfilesystem,poi-3.6/src/java/org/apache/poi/poifs/eventfilesystem/POIFSReader.java,2,312,The value returned from a stream read should be checked,Sonar,IgnoredStreamReturnValueCheck
+1,org.apache.poi.hssf.util,poi-3.6/src/java/org/apache/poi/hssf/util/HSSFColor.java,2,207,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+2,org.apache.poi.hssf.util,poi-3.6/src/java/org/apache/poi/hssf/util/HSSFColor.java,2,238,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+3,org.apache.poi.hssf.util,poi-3.6/src/java/org/apache/poi/hssf/util/HSSFColor.java,2,269,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+4,org.apache.poi.hssf.util,poi-3.6/src/java/org/apache/poi/hssf/util/HSSFColor.java,2,300,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+5,org.apache.poi.hssf.util,poi-3.6/src/java/org/apache/poi/hssf/util/HSSFColor.java,2,331,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+6,org.apache.poi.hssf.util,poi-3.6/src/java/org/apache/poi/hssf/util/HSSFColor.java,2,363,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+7,org.apache.poi.hssf.util,poi-3.6/src/java/org/apache/poi/hssf/util/HSSFColor.java,2,394,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+8,org.apache.poi.hssf.util,poi-3.6/src/java/org/apache/poi/hssf/util/HSSFColor.java,2,425,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+9,org.apache.poi.hssf.util,poi-3.6/src/java/org/apache/poi/hssf/util/HSSFColor.java,2,457,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+10,org.apache.poi.hssf.util,poi-3.6/src/java/org/apache/poi/hssf/util/HSSFColor.java,2,488,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+11,org.apache.poi.hssf.util,poi-3.6/src/java/org/apache/poi/hssf/util/HSSFColor.java,2,519,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+12,org.apache.poi.hssf.util,poi-3.6/src/java/org/apache/poi/hssf/util/HSSFColor.java,2,550,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+13,org.apache.poi.hssf.util,poi-3.6/src/java/org/apache/poi/hssf/util/HSSFColor.java,2,582,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+14,org.apache.poi.hssf.util,poi-3.6/src/java/org/apache/poi/hssf/util/HSSFColor.java,2,614,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+15,org.apache.poi.hssf.util,poi-3.6/src/java/org/apache/poi/hssf/util/HSSFColor.java,2,645,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+16,org.apache.poi.hssf.util,poi-3.6/src/java/org/apache/poi/hssf/util/HSSFColor.java,2,676,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+17,org.apache.poi.hssf.util,poi-3.6/src/java/org/apache/poi/hssf/util/HSSFColor.java,2,707,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+18,org.apache.poi.hssf.util,poi-3.6/src/java/org/apache/poi/hssf/util/HSSFColor.java,2,738,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+19,org.apache.poi.hssf.util,poi-3.6/src/java/org/apache/poi/hssf/util/HSSFColor.java,2,769,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+20,org.apache.poi.hssf.util,poi-3.6/src/java/org/apache/poi/hssf/util/HSSFColor.java,2,800,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+21,org.apache.poi.hssf.util,poi-3.6/src/java/org/apache/poi/hssf/util/HSSFColor.java,2,831,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+22,org.apache.poi.hssf.util,poi-3.6/src/java/org/apache/poi/hssf/util/HSSFColor.java,2,862,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+23,org.apache.poi.hssf.util,poi-3.6/src/java/org/apache/poi/hssf/util/HSSFColor.java,2,894,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+24,org.apache.poi.hssf.util,poi-3.6/src/java/org/apache/poi/hssf/util/HSSFColor.java,2,925,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+25,org.apache.poi.hssf.util,poi-3.6/src/java/org/apache/poi/hssf/util/HSSFColor.java,2,957,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+26,org.apache.poi.hssf.util,poi-3.6/src/java/org/apache/poi/hssf/util/HSSFColor.java,2,988,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+27,org.apache.poi.hssf.util,poi-3.6/src/java/org/apache/poi/hssf/util/HSSFColor.java,2,1020,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+28,org.apache.poi.hssf.util,poi-3.6/src/java/org/apache/poi/hssf/util/HSSFColor.java,2,1052,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+29,org.apache.poi.hssf.util,poi-3.6/src/java/org/apache/poi/hssf/util/HSSFColor.java,2,1084,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+30,org.apache.poi.hssf.util,poi-3.6/src/java/org/apache/poi/hssf/util/HSSFColor.java,2,1115,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+31,org.apache.poi.hssf.util,poi-3.6/src/java/org/apache/poi/hssf/util/HSSFColor.java,2,1147,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+32,org.apache.poi.hssf.util,poi-3.6/src/java/org/apache/poi/hssf/util/HSSFColor.java,2,1178,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+33,org.apache.poi.hssf.util,poi-3.6/src/java/org/apache/poi/hssf/util/HSSFColor.java,2,1209,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+34,org.apache.poi.hssf.util,poi-3.6/src/java/org/apache/poi/hssf/util/HSSFColor.java,2,1240,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+35,org.apache.poi.hssf.util,poi-3.6/src/java/org/apache/poi/hssf/util/HSSFColor.java,2,1271,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+36,org.apache.poi.hssf.util,poi-3.6/src/java/org/apache/poi/hssf/util/HSSFColor.java,2,1302,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+37,org.apache.poi.hssf.util,poi-3.6/src/java/org/apache/poi/hssf/util/HSSFColor.java,2,1334,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+38,org.apache.poi.hssf.util,poi-3.6/src/java/org/apache/poi/hssf/util/HSSFColor.java,2,1365,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+39,org.apache.poi.hssf.util,poi-3.6/src/java/org/apache/poi/hssf/util/HSSFColor.java,2,1396,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+40,org.apache.poi.hssf.util,poi-3.6/src/java/org/apache/poi/hssf/util/HSSFColor.java,2,1427,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+41,org.apache.poi.hssf.util,poi-3.6/src/java/org/apache/poi/hssf/util/HSSFColor.java,2,1456,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+42,org.apache.poi.hssf.util,poi-3.6/src/java/org/apache/poi/hssf/util/HSSFColor.java,2,1486,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+43,org.apache.poi.hssf.util,poi-3.6/src/java/org/apache/poi/hssf/util/HSSFColor.java,2,1515,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+44,org.apache.poi.hssf.util,poi-3.6/src/java/org/apache/poi/hssf/util/HSSFColor.java,2,1544,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+45,org.apache.poi.hssf.util,poi-3.6/src/java/org/apache/poi/hssf/util/HSSFColor.java,2,1573,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+46,org.apache.poi.hssf.util,poi-3.6/src/java/org/apache/poi/hssf/util/HSSFColor.java,2,1602,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+47,org.apache.poi.hssf.util,poi-3.6/src/java/org/apache/poi/hssf/util/HSSFColor.java,2,1631,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+1,org.apache.poi.ss.formula,poi-3.6/src/java/org/apache/poi/ss/formula/EvaluationTracker.java,2,120,Collection methods with O(n) performance should be used carefully,Sonar,CollectionMethodsWithLinearComplexityCheck
+1,org.apache.poi.hssf.usermodel,poi-3.6/src/java/org/apache/poi/hssf/usermodel/HSSFWorkbook.java,2,407,Collection methods with O(n) performance should be used carefully,Sonar,CollectionMethodsWithLinearComplexityCheck
+2,org.apache.poi.hssf.usermodel,poi-3.6/src/java/org/apache/poi/hssf/usermodel/HSSFWorkbook.java,2,835,Collection methods with O(n) performance should be used carefully,Sonar,CollectionMethodsWithLinearComplexityCheck
+3,org.apache.poi.hssf.usermodel,poi-3.6/src/java/org/apache/poi/hssf/usermodel/HSSFWorkbook.java,2,1435,Collection methods with O(n) performance should be used carefully,Sonar,CollectionMethodsWithLinearComplexityCheck
+1,org.apache.poi.ss.formula,poi-3.6/src/java/org/apache/poi/ss/formula/OperandClassTransformer.java,2,177,Switch cases should end with an unconditional break statement,Sonar,SwitchCasesWithoutBreakCheck
+1,org.apache.poi.ss.formula,poi-3.6/src/java/org/apache/poi/ss/formula/ParseNode.java,2,189,Values should not be uselessly incremented,Sonar,UselessIncrementCheck
+1,org.apache.poi.ss.usermodel,poi-3.6/src/java/org/apache/poi/ss/usermodel/DateUtil.java,2,364,Invalid Date values should not be used,Sonar,InvalidDateValuesCheck
+2,org.apache.poi.ss.usermodel,poi-3.6/src/java/org/apache/poi/ss/usermodel/DateUtil.java,2,365,Invalid Date values should not be used,Sonar,InvalidDateValuesCheck
+3,org.apache.poi.ss.usermodel,poi-3.6/src/java/org/apache/poi/ss/usermodel/DateUtil.java,2,366,Invalid Date values should not be used,Sonar,InvalidDateValuesCheck
+1,org.apache.poi.ss.util,poi-3.6/src/java/org/apache/poi/ss/util/AreaReference.java,2,318,Switch cases should end with an unconditional break statement,Sonar,SwitchCasesWithoutBreakCheck
+1,org.apache.poi.ss.util,poi-3.6/src/java/org/apache/poi/ss/util/NormalisedDecimal.java,2,95,Switch cases should end with an unconditional break statement,Sonar,SwitchCasesWithoutBreakCheck
+2,org.apache.poi.ss.util,poi-3.6/src/java/org/apache/poi/ss/util/NormalisedDecimal.java,2,107,Switch cases should end with an unconditional break statement,Sonar,SwitchCasesWithoutBreakCheck
+1,org.apache.poi.ss.util,poi-3.6/src/java/org/apache/poi/ss/util/Region.java,2,162,equals method overrides should accept Object parameters,Sonar,MethodNamedEqualsCheck
+1,org.apache.poi.util,poi-3.6/src/java/org/apache/poi/util/HexRead.java,2,141,Switch cases should end with an unconditional break statement,Sonar,SwitchCasesWithoutBreakCheck
+1,org.apache.poi.util,poi-3.6/src/java/org/apache/poi/util/HexDump.java,2,461,The value returned from a stream read should be checked,Sonar,IgnoredStreamReturnValueCheck
+1,org.apache.poi.util,poi-3.6/src/java/org/apache/poi/util/POILogFactory.java,2,103,Avoid comparing class names directly. Use instanceof or Class.isAssignableFrom() instead.,Sonar,ClassComparedByNameCheck
+1,org.apache.poi.util,poi-3.6/src/java/org/apache/poi/util/POILogger.java,2,34,public static fields should be constant,Sonar,PublicStaticFieldShouldBeFinalCheck
+2,org.apache.poi.util,poi-3.6/src/java/org/apache/poi/util/POILogger.java,2,35,public static fields should be constant,Sonar,PublicStaticFieldShouldBeFinalCheck
+3,org.apache.poi.util,poi-3.6/src/java/org/apache/poi/util/POILogger.java,2,36,public static fields should be constant,Sonar,PublicStaticFieldShouldBeFinalCheck
+4,org.apache.poi.util,poi-3.6/src/java/org/apache/poi/util/POILogger.java,2,37,public static fields should be constant,Sonar,PublicStaticFieldShouldBeFinalCheck
+5,org.apache.poi.util,poi-3.6/src/java/org/apache/poi/util/POILogger.java,2,38,public static fields should be constant,Sonar,PublicStaticFieldShouldBeFinalCheck
+1,org.apache.poi.xssf.util,poi-3.6/src/ooxml/java/org/apache/poi/xssf/util/NumericRanges.java,2,22,public static fields should be constant,Sonar,PublicStaticFieldShouldBeFinalCheck
+2,org.apache.poi.xssf.util,poi-3.6/src/ooxml/java/org/apache/poi/xssf/util/NumericRanges.java,2,23,public static fields should be constant,Sonar,PublicStaticFieldShouldBeFinalCheck
+3,org.apache.poi.xssf.util,poi-3.6/src/ooxml/java/org/apache/poi/xssf/util/NumericRanges.java,2,24,public static fields should be constant,Sonar,PublicStaticFieldShouldBeFinalCheck
+4,org.apache.poi.xssf.util,poi-3.6/src/ooxml/java/org/apache/poi/xssf/util/NumericRanges.java,2,25,public static fields should be constant,Sonar,PublicStaticFieldShouldBeFinalCheck
+5,org.apache.poi.xssf.util,poi-3.6/src/ooxml/java/org/apache/poi/xssf/util/NumericRanges.java,2,26,public static fields should be constant,Sonar,PublicStaticFieldShouldBeFinalCheck
+1,org.apache.poi.hslf,poi-3.6/src/scratchpad/src/org/apache/poi/hslf/HSLFSlideShow.java,2,299,The value returned from a stream read should be checked,Sonar,IgnoredStreamReturnValueCheck
+1,org.apache.poi.hslf.dev,poi-3.6/src/scratchpad/src/org/apache/poi/hslf/dev/PPTXMLDump.java,2,36,public static fields should be constant,Sonar,PublicStaticFieldShouldBeFinalCheck
+2,org.apache.poi.hslf.dev,poi-3.6/src/scratchpad/src/org/apache/poi/hslf/dev/PPTXMLDump.java,2,239,Ints and longs should not be shifted by zero or more than their number of bits-1,Sonar,ShiftOnIntOrLongCheck
+1,org.apache.poi.hslf.model,poi-3.6/src/scratchpad/src/org/apache/poi/hslf/model/Freeform.java,2,48,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+2,org.apache.poi.hslf.model,poi-3.6/src/scratchpad/src/org/apache/poi/hslf/model/Freeform.java,2,49,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+3,org.apache.poi.hslf.model,poi-3.6/src/scratchpad/src/org/apache/poi/hslf/model/Freeform.java,2,50,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+4,org.apache.poi.hslf.model,poi-3.6/src/scratchpad/src/org/apache/poi/hslf/model/Freeform.java,2,51,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+5,org.apache.poi.hslf.model,poi-3.6/src/scratchpad/src/org/apache/poi/hslf/model/Freeform.java,2,52,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+6,org.apache.poi.hslf.model,poi-3.6/src/scratchpad/src/org/apache/poi/hslf/model/Freeform.java,2,53,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+7,org.apache.poi.hslf.model,poi-3.6/src/scratchpad/src/org/apache/poi/hslf/model/Freeform.java,2,54,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+8,org.apache.poi.hslf.model,poi-3.6/src/scratchpad/src/org/apache/poi/hslf/model/Freeform.java,2,55,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+1,org.apache.poi.hslf.model,poi-3.6/src/scratchpad/src/org/apache/poi/hslf/model/ShapeFactory.java,2,81,Switch cases should end with an unconditional break statement,Sonar,SwitchCasesWithoutBreakCheck
+1,org.apache.poi.hslf.model,poi-3.6/src/scratchpad/src/org/apache/poi/hslf/model/ShapeTypes.java,2,41,public static fields should be constant,Sonar,PublicStaticFieldShouldBeFinalCheck
+2,org.apache.poi.hslf.model,poi-3.6/src/scratchpad/src/org/apache/poi/hslf/model/ShapeTypes.java,2,43,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+1,org.apache.poi.hslf.model.textproperties,poi-3.6/src/scratchpad/src/org/apache/poi/hslf/model/textproperties/CharFlagsTextProp.java,2,35,public static fields should be constant,Sonar,PublicStaticFieldShouldBeFinalCheck
+1,org.apache.poi.hslf.model.textproperties,poi-3.6/src/scratchpad/src/org/apache/poi/hslf/model/textproperties/ParagraphFlagsTextProp.java,2,31,public static fields should be constant,Sonar,PublicStaticFieldShouldBeFinalCheck
+1,org.apache.poi.hslf.model.textproperties,poi-3.6/src/scratchpad/src/org/apache/poi/hslf/model/textproperties/TextPropCollection.java,2,49,Collection methods with O(n) performance should be used carefully,Sonar,CollectionMethodsWithLinearComplexityCheck
+2,org.apache.poi.hslf.model.textproperties,poi-3.6/src/scratchpad/src/org/apache/poi/hslf/model/textproperties/TextPropCollection.java,2,79,Collection methods with O(n) performance should be used carefully,Sonar,CollectionMethodsWithLinearComplexityCheck
+3,org.apache.poi.hslf.model.textproperties,poi-3.6/src/scratchpad/src/org/apache/poi/hslf/model/textproperties/TextPropCollection.java,2,176,Collection methods with O(n) performance should be used carefully,Sonar,CollectionMethodsWithLinearComplexityCheck
+4,org.apache.poi.hslf.model.textproperties,poi-3.6/src/scratchpad/src/org/apache/poi/hslf/model/textproperties/TextPropCollection.java,2,190,Collection methods with O(n) performance should be used carefully,Sonar,CollectionMethodsWithLinearComplexityCheck
+1,org.apache.poi.hslf.record,poi-3.6/src/scratchpad/src/org/apache/poi/hslf/record/CurrentUserAtom.java,2,43,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+2,org.apache.poi.hslf.record,poi-3.6/src/scratchpad/src/org/apache/poi/hslf/record/CurrentUserAtom.java,2,45,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+3,org.apache.poi.hslf.record,poi-3.6/src/scratchpad/src/org/apache/poi/hslf/record/CurrentUserAtom.java,2,47,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+4,org.apache.poi.hslf.record,poi-3.6/src/scratchpad/src/org/apache/poi/hslf/record/CurrentUserAtom.java,2,49,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+1,org.apache.poi.hslf.record,poi-3.6/src/scratchpad/src/org/apache/poi/hslf/record/RecordContainer.java,1,63,Synchronization should not be based on Strings or boxed primitives,Sonar,SynchronizationOnStringOrBoxedCheck
+2,org.apache.poi.hslf.record,poi-3.6/src/scratchpad/src/org/apache/poi/hslf/record/RecordContainer.java,1,78,Synchronization should not be based on Strings or boxed primitives,Sonar,SynchronizationOnStringOrBoxedCheck
+3,org.apache.poi.hslf.record,poi-3.6/src/scratchpad/src/org/apache/poi/hslf/record/RecordContainer.java,1,95,Synchronization should not be based on Strings or boxed primitives,Sonar,SynchronizationOnStringOrBoxedCheck
+4,org.apache.poi.hslf.record,poi-3.6/src/scratchpad/src/org/apache/poi/hslf/record/RecordContainer.java,1,165,Synchronization should not be based on Strings or boxed primitives,Sonar,SynchronizationOnStringOrBoxedCheck
+5,org.apache.poi.hslf.record,poi-3.6/src/scratchpad/src/org/apache/poi/hslf/record/RecordContainer.java,1,176,Synchronization should not be based on Strings or boxed primitives,Sonar,SynchronizationOnStringOrBoxedCheck
+6,org.apache.poi.hslf.record,poi-3.6/src/scratchpad/src/org/apache/poi/hslf/record/RecordContainer.java,1,194,Synchronization should not be based on Strings or boxed primitives,Sonar,SynchronizationOnStringOrBoxedCheck
+7,org.apache.poi.hslf.record,poi-3.6/src/scratchpad/src/org/apache/poi/hslf/record/RecordContainer.java,1,219,Synchronization should not be based on Strings or boxed primitives,Sonar,SynchronizationOnStringOrBoxedCheck
+8,org.apache.poi.hslf.record,poi-3.6/src/scratchpad/src/org/apache/poi/hslf/record/RecordContainer.java,1,243,Synchronization should not be based on Strings or boxed primitives,Sonar,SynchronizationOnStringOrBoxedCheck
+1,org.apache.poi.hslf.record,poi-3.6/src/scratchpad/src/org/apache/poi/hslf/record/RecordTypes.java,2,34,public static fields should be constant,Sonar,PublicStaticFieldShouldBeFinalCheck
+2,org.apache.poi.hslf.record,poi-3.6/src/scratchpad/src/org/apache/poi/hslf/record/RecordTypes.java,2,35,public static fields should be constant,Sonar,PublicStaticFieldShouldBeFinalCheck
+3,org.apache.poi.hslf.record,poi-3.6/src/scratchpad/src/org/apache/poi/hslf/record/RecordTypes.java,2,240,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+4,org.apache.poi.hslf.record,poi-3.6/src/scratchpad/src/org/apache/poi/hslf/record/RecordTypes.java,2,241,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+1,org.apache.poi.hsmf.datatypes,poi-3.6/src/scratchpad/src/org/apache/poi/hsmf/datatypes/Types.java,2,21,public static fields should be constant,Sonar,PublicStaticFieldShouldBeFinalCheck
+2,org.apache.poi.hsmf.datatypes,poi-3.6/src/scratchpad/src/org/apache/poi/hsmf/datatypes/Types.java,2,24,public static fields should be constant,Sonar,PublicStaticFieldShouldBeFinalCheck
+3,org.apache.poi.hsmf.datatypes,poi-3.6/src/scratchpad/src/org/apache/poi/hsmf/datatypes/Types.java,2,26,public static fields should be constant,Sonar,PublicStaticFieldShouldBeFinalCheck
+4,org.apache.poi.hsmf.datatypes,poi-3.6/src/scratchpad/src/org/apache/poi/hsmf/datatypes/Types.java,2,28,public static fields should be constant,Sonar,PublicStaticFieldShouldBeFinalCheck
+5,org.apache.poi.hsmf.datatypes,poi-3.6/src/scratchpad/src/org/apache/poi/hsmf/datatypes/Types.java,2,29,public static fields should be constant,Sonar,PublicStaticFieldShouldBeFinalCheck
+6,org.apache.poi.hsmf.datatypes,poi-3.6/src/scratchpad/src/org/apache/poi/hsmf/datatypes/Types.java,2,30,public static fields should be constant,Sonar,PublicStaticFieldShouldBeFinalCheck
+1,org.apache.poi.hslf.record,poi-3.6/src/scratchpad/src/org/apache/poi/hslf/record/StyleTextPropAtom.java,2,125,public static fields should be constant,Sonar,PublicStaticFieldShouldBeFinalCheck
+2,org.apache.poi.hslf.record,poi-3.6/src/scratchpad/src/org/apache/poi/hslf/record/StyleTextPropAtom.java,2,148,public static fields should be constant,Sonar,PublicStaticFieldShouldBeFinalCheck
+3,org.apache.poi.hslf.record,poi-3.6/src/scratchpad/src/org/apache/poi/hslf/record/StyleTextPropAtom.java,2,369,Collection methods with O(n) performance should be used carefully,Sonar,CollectionMethodsWithLinearComplexityCheck
+4,org.apache.poi.hslf.record,poi-3.6/src/scratchpad/src/org/apache/poi/hslf/record/StyleTextPropAtom.java,2,375,Collection methods with O(n) performance should be used carefully,Sonar,CollectionMethodsWithLinearComplexityCheck
+1,org.apache.poi.hwpf.model,poi-3.6/src/scratchpad/src/org/apache/poi/hwpf/model/FontTable.java,1,130,equals(Object obj) should test argument type,Sonar,EqualsArgumentTypeCheck
+1,org.apache.poi.hwpf.model,poi-3.6/src/scratchpad/src/org/apache/poi/hwpf/model/Ffn.java,1,181,equals(Object obj) should test argument type,Sonar,EqualsArgumentTypeCheck
+1,org.apache.poi.hwpf.model,poi-3.6/src/scratchpad/src/org/apache/poi/hwpf/model/ListData.java,1,121,equals(Object obj) should test argument type,Sonar,EqualsArgumentTypeCheck
+1,org.apache.poi.hwpf.model,poi-3.6/src/scratchpad/src/org/apache/poi/hwpf/model/ListFormatOverride.java,1,92,equals(Object obj) should test argument type,Sonar,EqualsArgumentTypeCheck
+1,org.apache.poi.hwpf.model,poi-3.6/src/scratchpad/src/org/apache/poi/hwpf/model/ListFormatOverrideLevel.java,1,77,equals(Object obj) should test argument type,Sonar,EqualsArgumentTypeCheck
+1,org.apache.poi.hwpf.model,poi-3.6/src/scratchpad/src/org/apache/poi/hwpf/model/ListLevel.java,1,178,equals(Object obj) should test argument type,Sonar,EqualsArgumentTypeCheck
+1,org.apache.poi.hwpf.model,poi-3.6/src/scratchpad/src/org/apache/poi/hwpf/model/ListTables.java,1,207,equals(Object obj) should test argument type,Sonar,EqualsArgumentTypeCheck
+1,org.apache.poi.hwpf.model,poi-3.6/src/scratchpad/src/org/apache/poi/hwpf/model/PieceDescriptor.java,1,100,equals(Object obj) should test argument type,Sonar,EqualsArgumentTypeCheck
+1,org.apache.poi.hwpf.model,poi-3.6/src/scratchpad/src/org/apache/poi/hwpf/model/ParagraphHeight.java,1,75,equals(Object obj) should test argument type,Sonar,EqualsArgumentTypeCheck
+1,org.apache.poi.hwpf.model,poi-3.6/src/scratchpad/src/org/apache/poi/hwpf/model/PropertyNode.java,1,114,equals(Object obj) should test argument type,Sonar,EqualsArgumentTypeCheck
+1,org.apache.poi.hwpf.model,poi-3.6/src/scratchpad/src/org/apache/poi/hwpf/model/SectionDescriptor.java,1,55,equals(Object obj) should test argument type,Sonar,EqualsArgumentTypeCheck
+1,org.apache.poi.hwpf.model,poi-3.6/src/scratchpad/src/org/apache/poi/hwpf/model/TextPiece.java,1,169,equals(Object obj) should test argument type,Sonar,EqualsArgumentTypeCheck
+1,org.apache.poi.hwpf.model,poi-3.6/src/scratchpad/src/org/apache/poi/hwpf/model/UPX.java,1,40,equals(Object obj) should test argument type,Sonar,EqualsArgumentTypeCheck
+1,org.apache.poi.hwpf.model,poi-3.6/src/scratchpad/src/org/apache/poi/hwpf/model/SectionTable.java,3,130,Loop conditions should be true at least once,Sonar,ForLoopFalseConditionCheck
+1,org.apache.poi.hwpf.model,poi-3.6/src/scratchpad/src/org/apache/poi/hwpf/model/StyleSheet.java,1,177,equals(Object obj) should test argument type,Sonar,EqualsArgumentTypeCheck
+1,org.apache.poi.hwpf.model,poi-3.6/src/scratchpad/src/org/apache/poi/hwpf/model/StyleDescription.java,1,244,equals(Object obj) should test argument type,Sonar,EqualsArgumentTypeCheck
+1,org.apache.poi.hwpf.model,poi-3.6/src/scratchpad/src/org/apache/poi/hwpf/model/TextPieceTable.java,1,228,equals(Object obj) should test argument type,Sonar,EqualsArgumentTypeCheck
+1,org.apache.poi.hslf.usermodel,poi-3.6/src/scratchpad/src/org/apache/poi/hslf/usermodel/SlideShow.java,2,880,The value returned from a stream read should be checked,Sonar,IgnoredStreamReturnValueCheck
+1,org.apache.poi.hwpf.sprm,poi-3.6/src/scratchpad/src/org/apache/poi/hwpf/sprm/SprmBuffer.java,1,136,equals(Object obj) should test argument type,Sonar,EqualsArgumentTypeCheck
+1,org.apache.poi.hwpf.usermodel,poi-3.6/src/scratchpad/src/org/apache/poi/hwpf/usermodel/BorderCode.java,1,55,equals(Object obj) should test argument type,Sonar,EqualsArgumentTypeCheck
+1,org.apache.poi.hwpf.usermodel,poi-3.6/src/scratchpad/src/org/apache/poi/hwpf/usermodel/DateAndTime.java,1,58,equals(Object obj) should test argument type,Sonar,EqualsArgumentTypeCheck
+1,org.apache.poi.hwpf.usermodel,poi-3.6/src/scratchpad/src/org/apache/poi/hwpf/usermodel/LineSpacingDescriptor.java,1,71,equals(Object obj) should test argument type,Sonar,EqualsArgumentTypeCheck
+1,org.apache.poi.hwpf.usermodel,poi-3.6/src/scratchpad/src/org/apache/poi/hwpf/usermodel/Picture.java,2,45,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+2,org.apache.poi.hwpf.usermodel,poi-3.6/src/scratchpad/src/org/apache/poi/hwpf/usermodel/Picture.java,2,46,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+3,org.apache.poi.hwpf.usermodel,poi-3.6/src/scratchpad/src/org/apache/poi/hwpf/usermodel/Picture.java,2,47,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+4,org.apache.poi.hwpf.usermodel,poi-3.6/src/scratchpad/src/org/apache/poi/hwpf/usermodel/Picture.java,2,48,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+5,org.apache.poi.hwpf.usermodel,poi-3.6/src/scratchpad/src/org/apache/poi/hwpf/usermodel/Picture.java,2,49,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+6,org.apache.poi.hwpf.usermodel,poi-3.6/src/scratchpad/src/org/apache/poi/hwpf/usermodel/Picture.java,2,50,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+7,org.apache.poi.hwpf.usermodel,poi-3.6/src/scratchpad/src/org/apache/poi/hwpf/usermodel/Picture.java,2,52,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+8,org.apache.poi.hwpf.usermodel,poi-3.6/src/scratchpad/src/org/apache/poi/hwpf/usermodel/Picture.java,2,53,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+9,org.apache.poi.hwpf.usermodel,poi-3.6/src/scratchpad/src/org/apache/poi/hwpf/usermodel/Picture.java,2,54,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+10,org.apache.poi.hwpf.usermodel,poi-3.6/src/scratchpad/src/org/apache/poi/hwpf/usermodel/Picture.java,2,57,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+11,org.apache.poi.hwpf.usermodel,poi-3.6/src/scratchpad/src/org/apache/poi/hwpf/usermodel/Picture.java,2,59,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+12,org.apache.poi.hwpf.usermodel,poi-3.6/src/scratchpad/src/org/apache/poi/hwpf/usermodel/Picture.java,2,60,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+1,org.apache.poi.hdgf.streams,poi-3.6/src/scratchpad/testcases/org/apache/poi/hdgf/streams/TestStreamBasics.java,2,24,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+2,org.apache.poi.hdgf.streams,poi-3.6/src/scratchpad/testcases/org/apache/poi/hdgf/streams/TestStreamBasics.java,2,27,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+3,org.apache.poi.hdgf.streams,poi-3.6/src/scratchpad/testcases/org/apache/poi/hdgf/streams/TestStreamBasics.java,2,51,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+1,org.apache.poi.hdgf,poi-3.6/src/scratchpad/testcases/org/apache/poi/hdgf/TestHDGFLZW.java,2,25,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+2,org.apache.poi.hdgf,poi-3.6/src/scratchpad/testcases/org/apache/poi/hdgf/TestHDGFLZW.java,2,73,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+1,org.apache.poi.hdgf.chunks,poi-3.6/src/scratchpad/testcases/org/apache/poi/hdgf/chunks/TestChunks.java,2,23,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+2,org.apache.poi.hdgf.chunks,poi-3.6/src/scratchpad/testcases/org/apache/poi/hdgf/chunks/TestChunks.java,2,53,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+1,org.apache.poi.hslf.record,poi-3.6/src/scratchpad/testcases/org/apache/poi/hslf/record/TestCurrentUserAtom.java,2,90,The value returned from a stream read should be checked,Sonar,IgnoredStreamReturnValueCheck
+1,org.apache.poi.hslf.usermodel,poi-3.6/src/scratchpad/testcases/org/apache/poi/hslf/usermodel/TestRichTextRun.java,2,70,Instance methods should not write to static fields,Sonar,StaticFieldUpateCheck
+1,org.apache.poi.ddf,poi-3.6/src/testcases/org/apache/poi/ddf/TestEscherBlipRecord.java,2,148,The value returned from a stream read should be checked,Sonar,IgnoredStreamReturnValueCheck
+1,org.apache.poi.hssf.record.formula.eval,poi-3.6/src/testcases/org/apache/poi/hssf/record/formula/eval/TestMinusZeroResult.java,2,115,Identical expressions should not be used on both sides of a binary operator,Sonar,IdenticalOperandOnBinaryExpressionCheck
+1,org.apache.poi.hssf.usermodel,poi-3.6/src/testcases/org/apache/poi/hssf/usermodel/SanityChecker.java,2,274,Avoid comparing class names directly. Use instanceof or Class.isAssignableFrom() instead.,Sonar,ClassComparedByNameCheck
+1,org.apache.poi.hssf.usermodel,poi-3.6/src/testcases/org/apache/poi/hssf/usermodel/TestCellStyle.java,2,145,Identical expressions should not be used on both sides of a binary operator,Sonar,IdenticalOperandOnBinaryExpressionCheck
+2,org.apache.poi.hssf.usermodel,poi-3.6/src/testcases/org/apache/poi/hssf/usermodel/TestCellStyle.java,2,146,Identical expressions should not be used on both sides of a binary operator,Sonar,IdenticalOperandOnBinaryExpressionCheck
+1,org.apache.poi.poifs.filesystem,poi-3.6/src/testcases/org/apache/poi/poifs/filesystem/ReaderWriter.java,2,116,The value returned from a stream read should be checked,Sonar,IgnoredStreamReturnValueCheck
+2,org.apache.poi.poifs.filesystem,poi-3.6/src/testcases/org/apache/poi/poifs/filesystem/ReaderWriter.java,2,145,Exit methods should not be called,Sonar,SystemExitCalledCheck
+3,org.apache.poi.poifs.filesystem,poi-3.6/src/testcases/org/apache/poi/poifs/filesystem/ReaderWriter.java,2,182,Exit methods should not be called,Sonar,SystemExitCalledCheck
+1,org.apache.poi.poifs.filesystem,poi-3.6/src/testcases/org/apache/poi/poifs/filesystem/TestDocumentInputStream.java,2,105,The value returned from a stream read should be checked,Sonar,IgnoredStreamReturnValueCheck
+2,org.apache.poi.poifs.filesystem,poi-3.6/src/testcases/org/apache/poi/poifs/filesystem/TestDocumentInputStream.java,2,114,The value returned from a stream read should be checked,Sonar,IgnoredStreamReturnValueCheck
+3,org.apache.poi.poifs.filesystem,poi-3.6/src/testcases/org/apache/poi/poifs/filesystem/TestDocumentInputStream.java,2,116,The value returned from a stream read should be checked,Sonar,IgnoredStreamReturnValueCheck
+4,org.apache.poi.poifs.filesystem,poi-3.6/src/testcases/org/apache/poi/poifs/filesystem/TestDocumentInputStream.java,2,126,The value returned from a stream read should be checked,Sonar,IgnoredStreamReturnValueCheck
+5,org.apache.poi.poifs.filesystem,poi-3.6/src/testcases/org/apache/poi/poifs/filesystem/TestDocumentInputStream.java,2,223,The value returned from a stream read should be checked,Sonar,IgnoredStreamReturnValueCheck
+1,org.apache.poi.ss.util,poi-3.6/src/testcases/org/apache/poi/ss/util/NumberRenderingSpreadsheetGenerator.java,2,216,Ints and longs should not be shifted by zero or more than their number of bits-1,Sonar,ShiftOnIntOrLongCheck
+1,org.apache.poi.util,poi-3.6/src/testcases/org/apache/poi/util/TestIntegerField.java,2,33,Neither 'Math.abs' nor negation should be used on numbers that could be 'MIN_VALUE',Sonar,AbsOnNegativeCheck
+1,org.apache.poi.util,poi-3.6/src/testcases/org/apache/poi/util/TestLongField.java,2,32,Neither 'Math.abs' nor negation should be used on numbers that could be 'MIN_VALUE',Sonar,AbsOnNegativeCheck
+2,org.apache.poi.util,poi-3.6/src/testcases/org/apache/poi/util/TestLongField.java,2,179,Ints and longs should not be shifted by zero or more than their number of bits-1,Sonar,ShiftOnIntOrLongCheck
+3,org.apache.poi.util,poi-3.6/src/testcases/org/apache/poi/util/TestLongField.java,2,180,Ints and longs should not be shifted by zero or more than their number of bits-1,Sonar,ShiftOnIntOrLongCheck

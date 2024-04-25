@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<file name=".\CompareToReturnValueCheck.java">
+<violation beginline="4" endline="4" begincolumn="5" endcolumn="29" rule="CompareToReturnValueCheck" ruleset="Sonar" class="A" method="compareTo" priority="2">
+compareTo should not return Integer.MIN_VALUE
+</violation>
+<violation beginline="44" endline="44" begincolumn="13" endcolumn="37" rule="CompareToReturnValueCheck" ruleset="Sonar" class="B$C$D" method="compareTo" priority="2">
+compareTo should not return Integer.MIN_VALUE
+</violation>
+<violation beginline="48" endline="48" begincolumn="9" endcolumn="33" rule="CompareToReturnValueCheck" ruleset="Sonar" class="B$C" method="compareTo" priority="2">
+compareTo should not return Integer.MIN_VALUE
+</violation>
+<violation beginline="52" endline="52" begincolumn="5" endcolumn="29" rule="CompareToReturnValueCheck" ruleset="Sonar" class="B" method="compareTo" priority="2">
+compareTo should not return Integer.MIN_VALUE
+</violation>
+</file>
+

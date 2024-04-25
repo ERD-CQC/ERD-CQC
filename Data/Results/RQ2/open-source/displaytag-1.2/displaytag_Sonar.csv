@@ -1,0 +1,21 @@
+﻿File_Path,Issue_Name,Line,Severity,Rule,Type
+displaytag-1.2/displaytag/src/main/java/org/displaytag/export/DefaultItextExportView.java,抽象类【DefaultItextExportView】命名应以Abstract或Base开头,35,严重,[p3c]Abstract class names must start with Abstract or Base.,
+displaytag-1.2/displaytag/src/main/java/org/displaytag/decorator/TableDecorator.java,抽象类【TableDecorator】命名应以Abstract或Base开头,25,严重,[p3c]Abstract class names must start with Abstract or Base.,
+displaytag-1.2/displaytag/src/main/java/org/displaytag/decorator/CheckboxTableDecorator.java,"This call to ""contains()"" may be a performance hot spot if the collection is large.",111,严重,Collection methods with O(n) performance should be used carefully,CODE_SMELL
+displaytag-1.2/displaytag/src/main/java/org/displaytag/decorator/CheckboxTableDecorator.java,"This call to ""remove()"" may be a performance hot spot if the collection is large.",119,严重,Collection methods with O(n) performance should be used carefully,CODE_SMELL
+displaytag-1.2/displaytag/src/main/java/org/displaytag/properties/TableProperties.java,Catch Exception instead of Throwable.,525,阻断,Throwable and Error should not be caught,
+displaytag-1.2/displaytag/src/main/java/org/displaytag/properties/TableProperties.java,Catch Exception instead of Throwable.,1199,阻断,Throwable and Error should not be caught,
+displaytag-1.2/displaytag/src/main/java/org/displaytag/properties/TableProperties.java,"Make the enclosing method ""static"" or remove this set.",1194,严重,"Instance methods should not write to ""static"" fields",CODE_SMELL
+displaytag-1.2/displaytag/src/main/java/org/displaytag/properties/TableProperties.java,"Make the enclosing method ""static"" or remove this set.",1218,严重,"Instance methods should not write to ""static"" fields",CODE_SMELL
+displaytag-1.2/displaytag/src/main/java/org/displaytag/properties/TableProperties.java,Catch Exception instead of Throwable.,1352,阻断,Throwable and Error should not be caught,
+displaytag-1.2/displaytag/src/main/java/org/displaytag/tags/HtmlTableTag.java,抽象类【HtmlTableTag】命名应以Abstract或Base开头,24,严重,[p3c]Abstract class names must start with Abstract or Base.,
+displaytag-1.2/displaytag/src/main/java/org/displaytag/render/HtmlTableWriter.java,"Correct this ""&"" to ""&&"" and extract the right operand to a variable if it should always be evaluated.",196,严重,Short-circuit logic should be used in boolean contexts,CODE_SMELL
+displaytag-1.2/displaytag/src/main/java/org/displaytag/filter/BufferedResponseWrapper.java,"Move ""FILTERED_HEADERS"" to a class and lower its visibility",29,严重,"Mutable fields should not be ""public static""",VULNERABILITY
+displaytag-1.2/displaytag/src/main/java/org/displaytag/decorator/Decorator.java,抽象类【Decorator】命名应以Abstract或Base开头,40,严重,[p3c]Abstract class names must start with Abstract or Base.,
+displaytag-1.2/displaytag/src/main/java/org/displaytag/model/Cell.java,"Add a ""clone()"" method to this class.",30,严重,"""Cloneables"" should implement ""clone""",
+displaytag-1.2/displaytag/src/main/java/org/displaytag/render/TableWriterAdapter.java,抽象类【TableWriterAdapter】命名应以Abstract或Base开头,27,严重,[p3c]Abstract class names must start with Abstract or Base.,
+displaytag-1.2/displaytag-examples/src/main/java/org/displaytag/sample/decorators/TotalWrapperTemplate.java,抽象类【TotalWrapperTemplate】命名应以Abstract或Base开头,27,严重,[p3c]Abstract class names must start with Abstract or Base.,
+displaytag-1.2/displaytag/src/main/java/org/displaytag/render/TableWriterTemplate.java,抽象类【TableWriterTemplate】命名应以Abstract或Base开头,48,严重,[p3c]Abstract class names must start with Abstract or Base.,
+displaytag-1.2/displaytag/src/main/java/org/displaytag/tags/TemplateTag.java,抽象类【TemplateTag】命名应以Abstract或Base开头,27,严重,[p3c]Abstract class names must start with Abstract or Base.,
+displaytag-1.2/displaytag/src/main/java/org/displaytag/util/PostHref.java,"This class overrides ""equals()"" and should therefore also override ""hashCode()"".",75,阻断,"""equals(Object obj)"" and ""hashCode()"" should be overridden in pairs",
+displaytag-1.2/displaytag/src/main/java/org/displaytag/tags/TableTag.java,"Make the enclosing method ""static"" or remove this set.",924,严重,"Instance methods should not write to ""static"" fields",CODE_SMELL

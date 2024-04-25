@@ -1,0 +1,273 @@
+#anchors
+#Compliant
+---
+- &anchor 
+  foo: bar
+- *anchor
+#Noncompliant
+---
+- &anchor
+  foo: bar
+- *unknown
+
+
+
+#braces
+#Compliant
+object:
+  key1: 4
+  key2: 8
+#Noncompliant
+object: { key1: 4, key2: 8 }
+
+#brackets
+#Compliant
+object:
+  - 1
+  - 2
+  - abc
+#Noncompliant
+object: [ 1, 2, abc ]
+
+#colons
+#Compliant
+first:  1
+second: 2
+third:  3
+#Noncompliant
+first: 1
+2nd:   2
+third: 3
+
+#commas
+#Compliant
+strange var:
+  [10, 20, 30, {x: 1, y: 2}]
+#Noncompliant
+  strange var:
+  [10, 20,30,   {x: 1,   y: 2}]
+
+#comments
+#Compliant
+##############################
+## This is some documentation
+#Noncompliant
+#This sentence
+#is a block comment
+
+
+#comments-indentation
+#Compliant
+list:
+    - 2
+    - 3
+    # - 4
+    - 5
+#Noncompliant
+list:
+    - 2
+    - 3
+#    - 4
+    - 5
+
+
+#document-end
+#Compliant
+---
+this:
+  is: [a, document]
+...
+---
+- this
+- is: another one
+...
+#Noncompliant
+---
+this:
+  is: [a, document]
+---
+- this
+- is: another one
+...
+
+#document-start
+#Compliant
+---
+this:
+  is: [a, document]
+---
+- this
+- is: another one
+#Noncompliant
+this:
+  is: [a, document]
+---
+- this
+- is: another one
+
+#empty-lines
+#Compliant
+- foo:
+    - 1
+    - 2
+
+- bar: [3, 4]
+#Noncompliant
+- foo:
+    - 1
+    - 2
+
+- bar: [3, 4]
+
+#empty - values
+#Compliant
+{prop: null}
+{a: 1, b: 2, c: 3}
+#Noncompliant
+{prop: }
+
+{a: 1, b:, c: 3}
+
+#float-values
+#Compliant
+anemometer:
+  angle: 0.0
+#Noncompliant
+anemometer:
+  angle: .0
+
+#hyphens
+#Compliant
+- first list:
+    - a
+    - b
+- - 1
+  - 2
+  - 3
+#Noncompliant
+-  first list:
+     - a
+     - b
+
+
+#indentation
+#Compliant
+history:
+ - name: Unix
+   date: 1969
+ - name: Linux
+   date: 1991
+nest:
+ recurse:
+  - haystack:
+     needle
+#Noncompliant
+history:
+  - name: Unix
+    date: 1969
+  - name: Linux
+    date: 1991
+nest:
+  recurse:
+    - haystack:
+        needle
+
+
+#key-duplicates
+#Compliant
+- key 1: v
+  key 2: val
+  key 3: value
+- {a: 1, b: 2, c: 3}
+#Noncompliant
+- key 1: v
+  key 2: val
+  key 1: value
+
+
+#key-ordering
+#Compliant
+- key 1: v
+  key 2: val
+  key 3: value
+- {a: 1, b: 2, c: 3}
+- T-shirt: 1
+  T-shirts: 2
+  t-shirt: 3
+  t-shirts: 4
+- hair: true
+  hais: true
+  haïr: true
+  haïssable: true
+#Noncompliant
+
+- key 2: v
+  key 1: val
+
+
+#line-length
+#Compliant
+long sentence:
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+  eiusmod tempor incididunt ut labore et dolore magna aliqua.
+#Noncompliant
+long sentence:
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua.
+
+#new-line-at-end-of-file
+#Compliant
+user:
+  city-code: '010'
+#Noncompliant
+user:
+  city-code: 010
+
+#quoted-strings
+#Compliant
+foo: "bar"
+bar: 'foo'
+number: 123
+boolean: true
+#Noncompliant
+foo: bar
+
+
+#trailing-spaces
+#Compliant
+this document doesn't contain
+any trailing
+spaces
+#Noncompliant
+this document contains     
+trailing spaces
+on lines 1 and 3
+
+
+#truthy
+#Compliant
+%YAML 1.2
+---
+yes:  1
+on:   2
+true: 3
+#Noncompliant
+- true
+- false
+- on
+- off
+
+#hystrix
+#Compliant
+hystrix:
+  command:
+    default:
+      fallback:
+        enabled: true
+#Noncompliant
+hystrix:
+  command:
+    default:
+      fallback:
+        enabled: false
+

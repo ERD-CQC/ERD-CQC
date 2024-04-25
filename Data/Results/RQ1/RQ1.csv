@@ -1,0 +1,35 @@
+﻿Ruleset,TN,TP,BenchMark - C,BenchMark - NC,FN,FP,Precision,Recall,F1 Score
+OOP,180,133,180,137,4,0,1,0.97080292,0.985185185
+Serialization,48,27,48,27,0,0,1,1,1
+Security,40,33,40,33,0,0,1,1,1
+Concurrency,48,55,48,55,0,0,1,1,1
+Code Style,128,113,128,113,0,0,1,1,1
+"Collection
+Processing",36,59,36,60,1,0,1,0.983333333,0.991596639
+"Control
+Statement",131,74,131,74,0,0,1,1,1
+Performance,12,5,12,5,0,0,1,1,1
+"YAML
+Configuration",24,24,24,24,0,0,1,1,1
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+Ruleset,Precision,Recall,F1 Score,,,,,,
+OOP,1,0.97080292,0.985185185,,,,,,
+Serialization,1,1,1,,,,,,
+Security,1,1,1,,,,,,
+Concurrency,1,1,1,,,,,,
+Code Style,1,1,1,,,,,,
+"Collection
+Processing",1,0.983333333,0.991596639,,,,,,
+"Control
+Statement",1,1,1,,,,,,
+Performance,1,1,1,,,,,,
+"YAML
+Configuration",1,1,1,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,0.02919708,0.014814815,,,,,,
+,,0.016666667,0.008403361,,,,,,

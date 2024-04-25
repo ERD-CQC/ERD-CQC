@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<file name=".\CatchIllegalMonitorStateExceptionCheck.java">
+<violation beginline="5" endline="5" begincolumn="13" endcolumn="40" rule="CatchIllegalMonitorStateExceptionCheck" ruleset="Sonar" class="A" method="myMethod" priority="1">
+IllegalMonitorStateException should not be caught
+</violation>
+<violation beginline="11" endline="11" begincolumn="35" endcolumn="62" rule="CatchIllegalMonitorStateExceptionCheck" ruleset="Sonar" class="A" method="myMethod" priority="1">
+IllegalMonitorStateException should not be caught
+</violation>
+</file>
+

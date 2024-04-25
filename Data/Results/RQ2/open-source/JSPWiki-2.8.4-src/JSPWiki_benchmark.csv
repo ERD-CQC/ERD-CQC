@@ -1,0 +1,32 @@
+﻿File_Path,Issue_Name,Line,Severity,Rule,Type,Sonar,DepCQC
+JSPWiki-2.8.4-src/src/com/ecyrd/jspwiki/content/Exporter.java,"Remove this call to ""exit"" or ensure it is really required.",420,严重,Exit methods should not be called,CODE_SMELL,SystemExitCalledCheck,SystemExitCalledCheck
+JSPWiki-2.8.4-src/src/com/ecyrd/jspwiki/content/Exporter.java,"Remove this call to ""exit"" or ensure it is really required.",478,严重,Exit methods should not be called,CODE_SMELL,SystemExitCalledCheck,SystemExitCalledCheck
+JSPWiki-2.8.4-src/src/com/ecyrd/jspwiki/content/Exporter.java,"Remove this call to ""exit"" or ensure it is really required.",483,严重,Exit methods should not be called,CODE_SMELL,SystemExitCalledCheck,SystemExitCalledCheck
+JSPWiki-2.8.4-src/src/com/ecyrd/jspwiki/content/Exporter.java,"Remove this call to ""exit"" or ensure it is really required.",501,严重,Exit methods should not be called,CODE_SMELL,SystemExitCalledCheck,SystemExitCalledCheck
+JSPWiki-2.8.4-src/src/com/ecyrd/jspwiki/content/Exporter.java,"Remove this call to ""exit"" or ensure it is really required.",506,严重,Exit methods should not be called,CODE_SMELL,SystemExitCalledCheck,SystemExitCalledCheck
+JSPWiki-2.8.4-src/src/com/ecyrd/jspwiki/content/Exporter.java,"Remove this call to ""exit"" or ensure it is really required.",513,严重,Exit methods should not be called,CODE_SMELL,SystemExitCalledCheck,SystemExitCalledCheck
+JSPWiki-2.8.4-src/src/com/ecyrd/jspwiki/WikiContext.java,Return a non null object.,653,严重,"""toString()"" and ""clone()"" methods should not return null",bug,ToStringReturningNullCheck,ToStringReturningNullCheck
+JSPWiki-2.8.4-src/src/com/ecyrd/jspwiki/WikiEngine.java,"Make the enclosing method ""static"" or remove this set.",439,严重,"Instance methods should not write to ""static"" fields",CODE_SMELL,StaticFieldUpateCheck,StaticFieldUpateCheck
+JSPWiki-2.8.4-src/src/com/ecyrd/jspwiki/plugin/PageViewPlugin.java,"Make the enclosing method ""static"" or remove this set.",153,严重,"Instance methods should not write to ""static"" fields",CODE_SMELL,StaticFieldUpateCheck,StaticFieldUpateCheck
+JSPWiki-2.8.4-src/tests/com/ecyrd/jspwiki/TestJDBCDataSource.java,"Make the enclosing method ""static"" or remove this set.",161,严重,"Instance methods should not write to ""static"" fields",CODE_SMELL,StaticFieldUpateCheck,StaticFieldUpateCheck
+JSPWiki-2.8.4-src/src/com/ecyrd/jspwiki/workflow/Workflow.java,"Make this member ""protected"".",207,严重,"Mutable fields should not be ""public static""",VULNERABILITY,PublicStaticMutableMembersCheck,PublicStaticMutableMembersCheck
+JSPWiki-2.8.4-src/src/com/ecyrd/jspwiki/workflow/Workflow.java,"This call to ""get()"" may be a performance hot spot if the collection is large.",743,严重,Collection methods with O(n) performance should be used carefully,CODE_SMELL,CollectionMethodsWithLinearComplexityCheck,CollectionMethodsWithLinearComplexityCheck
+JSPWiki-2.8.4-src/src/com/ecyrd/jspwiki/ui/WikiJSPFilter.java,Return empty string instead.,371,严重,"""toString()"" and ""clone()"" methods should not return null",bug,ToStringReturningNullCheck,ToStringReturningNullCheck
+JSPWiki-2.8.4-src/src/com/ecyrd/jspwiki/util/UtilJ2eeCompat.java,"Correct this ""|"" to ""||"".",85,严重,Short-circuit logic should be used in boolean contexts,CODE_SMELL,NonShortCircuitLogicCheck,NonShortCircuitLogicCheck
+JSPWiki-2.8.4-src/tests/com/ecyrd/jspwiki/plugin/SamplePlugin.java,"Make the enclosing method ""static"" or remove this set.",44,严重,"Instance methods should not write to ""static"" fields",CODE_SMELL,StaticFieldUpateCheck,StaticFieldUpateCheck
+JSPWiki-2.8.4-src/tests/com/ecyrd/jspwiki/web/TestContainer.java,"Remove this call to ""exit"" or ensure it is really required.",331,严重,Exit methods should not be called,CODE_SMELL,SystemExitCalledCheck,SystemExitCalledCheck
+JSPWiki-2.8.4-src/tests/com/ecyrd/jspwiki/plugin/JavaScriptPlugin.java,"Make the enclosing method ""static"" or remove this set.",27,严重,"Instance methods should not write to ""static"" fields",CODE_SMELL,StaticFieldUpateCheck,StaticFieldUpateCheck
+JSPWiki-2.8.4-src/tests/com/ecyrd/jspwiki/auth/user/JDBCUserDatabaseTest.java,Ensure that string concatenation is required and safe for this SQL query.,82,严重,Executing SQL queries is security-sensitive,VULNERABILITY,SQLInjectionCheck,SQLInjectionCheck
+JSPWiki-2.8.4-src/src/com/ecyrd/jspwiki/util/Serializer.java,,95,,Non-serializable classes should not be written,,NonSerializableWriteCheck,NonSerializableWriteCheck
+JSPWiki-2.8.4-src/tests/com/ecyrd/jspwiki/WikiSessionTest.java,,159,,Cookies should be secure,,SecureCookieCheck,SecureCookieCheck
+JSPWiki-2.8.4-src/tests/com/ecyrd/jspwiki/WikiSessionTest.java,,192,,Cookies should be secure,,SecureCookieCheck,SecureCookieCheck
+JSPWiki-2.8.4-src/src/com/ecyrd/jspwiki/auth/login/CookieAuthenticationLoginModule.java,,300,,Cookies should be secure,,SecureCookieCheck,SecureCookieCheck
+JSPWiki-2.8.4-src/src/com/ecyrd/jspwiki/auth/login/CookieAssertionLoginModule.java,,163,,Cookies should be secure,,SecureCookieCheck,SecureCookieCheck
+JSPWiki-2.8.4-src/src/com/ecyrd/jspwiki/util/HttpUtil.java,,65,,Cookies should be secure,,SecureCookieCheck,SecureCookieCheck
+JSPWiki-2.8.4-src/src/com/ecyrd/jspwiki/tags/CookieTag.java,,267,,Cookies should be secure,,SecureCookieCheck,SecureCookieCheck
+JSPWiki-2.8.4-src/tests/com/ecyrd/jspwiki/WikiSessionTest.java,,257,,Cookies should be secure,,SecureCookieCheck,SecureCookieCheck
+JSPWiki-2.8.4-src/src/com/ecyrd/jspwiki/tags/CookieTag.java,,429,,Cookies should be secure,,SecureCookieCheck,SecureCookieCheck
+JSPWiki-2.8.4-src/tests/com/ecyrd/jspwiki/auth/login/CookieAssertionLoginModuleTest.java,,89,,Cookies should be secure,,SecureCookieCheck,SecureCookieCheck
+JSPWiki-2.8.4-src/tests/com/ecyrd/jspwiki/auth/login/CookieAssertionLoginModuleTest.java,,63,,Cookies should be secure,,SecureCookieCheck,SecureCookieCheck
+JSPWiki-2.8.4-src/src/com/ecyrd/jspwiki/auth/login/CookieAssertionLoginModule.java,,150,,Cookies should be secure,,SecureCookieCheck,SecureCookieCheck
+JSPWiki-2.8.4-src/src/com/ecyrd/jspwiki/auth/login/CookieAuthenticationLoginModule.java,,251,,Cookies should be secure,,SecureCookieCheck,SecureCookieCheck

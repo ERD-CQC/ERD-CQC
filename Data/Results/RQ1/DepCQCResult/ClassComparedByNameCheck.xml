@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<file name=".\ClassComparedByNameCheck.java">
+<violation beginline="3" endline="3" begincolumn="5" endcolumn="39" rule="ClassComparedByNameCheck" ruleset="Sonar" class="A" method="foo" priority="2">
+Avoid comparing class names directly. Use instanceof or Class.isAssignableFrom() instead.
+</violation>
+<violation beginline="4" endline="4" begincolumn="5" endcolumn="50" rule="ClassComparedByNameCheck" ruleset="Sonar" class="A" method="foo" priority="2">
+Avoid comparing class names directly. Use instanceof or Class.isAssignableFrom() instead.
+</violation>
+<violation beginline="5" endline="5" begincolumn="5" endcolumn="44" rule="ClassComparedByNameCheck" ruleset="Sonar" class="A" method="foo" priority="2">
+Avoid comparing class names directly. Use instanceof or Class.isAssignableFrom() instead.
+</violation>
+<violation beginline="8" endline="8" begincolumn="5" endcolumn="53" rule="ClassComparedByNameCheck" ruleset="Sonar" class="A" method="foo" priority="2">
+Avoid comparing class names directly. Use instanceof or Class.isAssignableFrom() instead.
+</violation>
+<violation beginline="14" endline="14" begincolumn="9" endcolumn="57" rule="ClassComparedByNameCheck" ruleset="Sonar" class="A" method="foo" priority="2">
+Avoid comparing class names directly. Use instanceof or Class.isAssignableFrom() instead.
+</violation>
+</file>
+

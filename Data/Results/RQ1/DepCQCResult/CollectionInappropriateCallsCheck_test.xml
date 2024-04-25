@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<file name="./CollectionInappropriateCallsCheck.java">
+<violation beginline="26" endline="26" begincolumn="5" endcolumn="19" rule="CollectionInappropriateCallsCheck" ruleset="Sonar" class="A" method="myMethod" priority="3">
+Inappropriate Collection calls should not be made
+</violation>
+<violation beginline="27" endline="27" begincolumn="5" endcolumn="17" rule="CollectionInappropriateCallsCheck" ruleset="Sonar" class="A" method="myMethod" priority="3">
+Inappropriate Collection calls should not be made
+</violation>
+<violation beginline="29" endline="29" begincolumn="5" endcolumn="20" rule="CollectionInappropriateCallsCheck" ruleset="Sonar" class="A" method="myMethod" priority="3">
+Inappropriate Collection calls should not be made
+</violation>
+<violation beginline="30" endline="30" begincolumn="5" endcolumn="22" rule="CollectionInappropriateCallsCheck" ruleset="Sonar" class="A" method="myMethod" priority="3">
+Inappropriate Collection calls should not be made
+</violation>
+<violation beginline="31" endline="31" begincolumn="5" endcolumn="22" rule="CollectionInappropriateCallsCheck" ruleset="Sonar" class="A" method="myMethod" priority="3">
+Inappropriate Collection calls should not be made
+</violation>
+<violation beginline="32" endline="32" begincolumn="5" endcolumn="20" rule="CollectionInappropriateCallsCheck" ruleset="Sonar" class="A" method="myMethod" priority="3">
+Inappropriate Collection calls should not be made
+</violation>
+<violation beginline="35" endline="35" begincolumn="5" endcolumn="19" rule="CollectionInappropriateCallsCheck" ruleset="Sonar" class="A" method="myMethod" priority="3">
+Inappropriate Collection calls should not be made
+</violation>
+<violation beginline="36" endline="36" begincolumn="5" endcolumn="17" rule="CollectionInappropriateCallsCheck" ruleset="Sonar" class="A" method="myMethod" priority="3">
+Inappropriate Collection calls should not be made
+</violation>
+<violation beginline="70" endline="70" begincolumn="5" endcolumn="24" rule="CollectionInappropriateCallsCheck" ruleset="Sonar" class="C" method="myOtherMethod" priority="3">
+Inappropriate Collection calls should not be made
+</violation>
+<violation beginline="73" endline="73" begincolumn="5" endcolumn="25" rule="CollectionInappropriateCallsCheck" ruleset="Sonar" class="C" method="myOtherMethod" priority="3">
+Inappropriate Collection calls should not be made
+</violation>
+<violation beginline="77" endline="77" begincolumn="5" endcolumn="30" rule="CollectionInappropriateCallsCheck" ruleset="Sonar" class="C" method="myOtherMethod" priority="3">
+Inappropriate Collection calls should not be made
+</violation>
+</file>
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<file name=".\ArrayHashCodeAndToStringCheck.java">
+<violation beginline="4" endline="4" begincolumn="21" endcolumn="35" rule="ArrayHashCodeAndToStringCheck" ruleset="Sonar" class="A" method="method" priority="1">
+hashCode and toString should not be called on array instances
+</violation>
+<violation beginline="5" endline="5" begincolumn="19" endcolumn="33" rule="ArrayHashCodeAndToStringCheck" ruleset="Sonar" class="A" method="method" priority="1">
+hashCode and toString should not be called on array instances
+</violation>
+</file>
+

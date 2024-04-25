@@ -1,0 +1,79 @@
+﻿Problem,Package,File,Priority,Line,Description,Rule set,Rule
+1,freecs.auth,freecs-1.3.20100406/src/freecs/auth/SQLAuthenticator.java,2,33,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+2,freecs.auth,freecs-1.3.20100406/src/freecs/auth/SQLAuthenticator.java,2,33,public static fields should be constant,Sonar,PublicStaticFieldShouldBeFinalCheck
+3,freecs.auth,freecs-1.3.20100406/src/freecs/auth/SQLAuthenticator.java,2,52,Instance methods should not write to static fields,Sonar,StaticFieldUpateCheck
+1,freecs.auth.sqlConnectionPool,freecs-1.3.20100406/src/freecs/auth/sqlConnectionPool/ConnectionPool.java,2,127,Switch cases should end with an unconditional break statement,Sonar,SwitchCasesWithoutBreakCheck
+2,freecs.auth.sqlConnectionPool,freecs-1.3.20100406/src/freecs/auth/sqlConnectionPool/ConnectionPool.java,2,144,The Object.finalize() method should not be overriden,Sonar,ObjectFinalizeOverridenCheck
+1,freecs.auth.sqlConnectionPool,freecs-1.3.20100406/src/freecs/auth/sqlConnectionPool/DbProperties.java,2,223,The Object.finalize() method should not be overriden,Sonar,ObjectFinalizeOverridenCheck
+1,freecs.auth,freecs-1.3.20100406/src/freecs/auth/AuthManager.java,2,32,public static fields should be constant,Sonar,PublicStaticFieldShouldBeFinalCheck
+1,freecs.auth.sqlConnectionPool,freecs-1.3.20100406/src/freecs/auth/sqlConnectionPool/PoolElement.java,2,235,Executing SQL queries is security-sensitive,Sonar,SQLInjectionCheck
+2,freecs.auth.sqlConnectionPool,freecs-1.3.20100406/src/freecs/auth/sqlConnectionPool/PoolElement.java,2,237,Executing SQL queries is security-sensitive,Sonar,SQLInjectionCheck
+3,freecs.auth.sqlConnectionPool,freecs-1.3.20100406/src/freecs/auth/sqlConnectionPool/PoolElement.java,2,308,ResultSet.isLast() should not be used,Sonar,ResultSetIsLastCheck
+4,freecs.auth.sqlConnectionPool,freecs-1.3.20100406/src/freecs/auth/sqlConnectionPool/PoolElement.java,2,357,ResultSet.isLast() should not be used,Sonar,ResultSetIsLastCheck
+5,freecs.auth.sqlConnectionPool,freecs-1.3.20100406/src/freecs/auth/sqlConnectionPool/PoolElement.java,2,722,The Object.finalize() method should not be overriden,Sonar,ObjectFinalizeOverridenCheck
+1,freecs.content,freecs-1.3.20100406/src/freecs/content/BanObject.java,2,66,The Object.finalize() method should not be overriden,Sonar,ObjectFinalizeOverridenCheck
+1,freecs.content,freecs-1.3.20100406/src/freecs/content/PersonalizedMessage.java,2,55,The Object.finalize() method should not be overriden,Sonar,ObjectFinalizeOverridenCheck
+1,freecs.content,freecs-1.3.20100406/src/freecs/content/MessageState.java,2,90,The Object.finalize() method should not be overriden,Sonar,ObjectFinalizeOverridenCheck
+1,freecs.content,freecs-1.3.20100406/src/freecs/content/Connection.java,2,158,The Object.finalize() method should not be overriden,Sonar,ObjectFinalizeOverridenCheck
+1,freecs.core,freecs-1.3.20100406/src/freecs/core/ConnectionBuffer.java,2,359,The Object.finalize() method should not be overriden,Sonar,ObjectFinalizeOverridenCheck
+1,freecs.core,freecs-1.3.20100406/src/freecs/core/CentralSelector.java,2,45,public static fields should be constant,Sonar,PublicStaticFieldShouldBeFinalCheck
+2,freecs.core,freecs-1.3.20100406/src/freecs/core/CentralSelector.java,2,154,Instance methods should not write to static fields,Sonar,StaticFieldUpateCheck
+1,freecs.content,freecs-1.3.20100406/src/freecs/content/ContentContainer.java,2,443,The Object.finalize() method should not be overriden,Sonar,ObjectFinalizeOverridenCheck
+1,freecs.content,freecs-1.3.20100406/src/freecs/content/HTTPRequest.java,2,379,The Object.finalize() method should not be overriden,Sonar,ObjectFinalizeOverridenCheck
+1,freecs.core,freecs-1.3.20100406/src/freecs/core/MembershipManager.java,2,45,public static fields should be constant,Sonar,PublicStaticFieldShouldBeFinalCheck
+1,freecs.core,freecs-1.3.20100406/src/freecs/core/RequestMonitor.java,2,34,public static fields should be constant,Sonar,PublicStaticFieldShouldBeFinalCheck
+1,freecs.core,freecs-1.3.20100406/src/freecs/core/Group.java,2,221,Short-circuit logic should be used in boolean contexts,Sonar,NonShortCircuitLogicCheck
+2,freecs.core,freecs-1.3.20100406/src/freecs/core/Group.java,2,825,The Object.finalize() method should not be overriden,Sonar,ObjectFinalizeOverridenCheck
+1,freecs.core,freecs-1.3.20100406/src/freecs/core/RequestQueue.java,2,101,The Object.finalize() method should not be overriden,Sonar,ObjectFinalizeOverridenCheck
+1,freecs.core,freecs-1.3.20100406/src/freecs/core/ScheduledAction.java,2,29,public static fields should be constant,Sonar,PublicStaticFieldShouldBeFinalCheck
+2,freecs.core,freecs-1.3.20100406/src/freecs/core/ScheduledAction.java,2,72,The Object.finalize() method should not be overriden,Sonar,ObjectFinalizeOverridenCheck
+1,freecs.core,freecs-1.3.20100406/src/freecs/core/GroupManager.java,2,41,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+1,freecs.core,freecs-1.3.20100406/src/freecs/core/RequestReader.java,2,351,equals method overrides should accept Object parameters,Sonar,MethodNamedEqualsCheck
+2,freecs.core,freecs-1.3.20100406/src/freecs/core/RequestReader.java,2,374,The Object.finalize() method should not be overriden,Sonar,ObjectFinalizeOverridenCheck
+1,freecs.core,freecs-1.3.20100406/src/freecs/core/MessageParser.java,2,512,The Object.finalize() method should not be overriden,Sonar,ObjectFinalizeOverridenCheck
+1,freecs.external,freecs-1.3.20100406/src/freecs/external/StateRequestHandler.java,2,52,Execution of the Garbage Collector should be triggered only by the JVM,Sonar,GarbageCollectorCalledCheck
+1,freecs.core,freecs-1.3.20100406/src/freecs/core/RequestEvaluator.java,2,524,equals method overrides should accept Object parameters,Sonar,MethodNamedEqualsCheck
+1,freecs.layout,freecs-1.3.20100406/src/freecs/layout/TemplateManager.java,2,29,public static fields should be constant,Sonar,PublicStaticFieldShouldBeFinalCheck
+2,freecs.layout,freecs-1.3.20100406/src/freecs/layout/TemplateManager.java,2,30,public static fields should be constant,Sonar,PublicStaticFieldShouldBeFinalCheck
+3,freecs.layout,freecs-1.3.20100406/src/freecs/layout/TemplateManager.java,2,31,public static fields should be constant,Sonar,PublicStaticFieldShouldBeFinalCheck
+4,freecs.layout,freecs-1.3.20100406/src/freecs/layout/TemplateManager.java,2,65,Instance methods should not write to static fields,Sonar,StaticFieldUpateCheck
+5,freecs.layout,freecs-1.3.20100406/src/freecs/layout/TemplateManager.java,2,119,Instance methods should not write to static fields,Sonar,StaticFieldUpateCheck
+1,freecs.layout,freecs-1.3.20100406/src/freecs/layout/TemplateSet.java,2,286,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+1,freecs.util,freecs-1.3.20100406/src/freecs/util/EntityDecoder.java,2,27,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+2,freecs.util,freecs-1.3.20100406/src/freecs/util/EntityDecoder.java,2,51,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+3,freecs.util,freecs-1.3.20100406/src/freecs/util/EntityDecoder.java,2,60,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+4,freecs.util,freecs-1.3.20100406/src/freecs/util/EntityDecoder.java,2,72,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+1,freecs.core,freecs-1.3.20100406/src/freecs/core/UserManager.java,2,40,public static fields should be constant,Sonar,PublicStaticFieldShouldBeFinalCheck
+2,freecs.core,freecs-1.3.20100406/src/freecs/core/UserManager.java,2,358,Instance methods should not write to static fields,Sonar,StaticFieldUpateCheck
+3,freecs.core,freecs-1.3.20100406/src/freecs/core/UserManager.java,2,369,Inappropriate Collection calls should not be made,Sonar,CollectionInappropriateCallsCheck
+4,freecs.core,freecs-1.3.20100406/src/freecs/core/UserManager.java,2,371,Inappropriate Collection calls should not be made,Sonar,CollectionInappropriateCallsCheck
+5,freecs.core,freecs-1.3.20100406/src/freecs/core/UserManager.java,2,374,Inappropriate Collection calls should not be made,Sonar,CollectionInappropriateCallsCheck
+1,freecs.util,freecs-1.3.20100406/src/freecs/util/GroupUserList.java,2,89,The Object.finalize() method should not be overriden,Sonar,ObjectFinalizeOverridenCheck
+1,freecs.util,freecs-1.3.20100406/src/freecs/util/HttpDateParser.java,2,38,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+1,freecs.util,freecs-1.3.20100406/src/freecs/util/ObjectBuffer.java,2,141,The Object.finalize() method should not be overriden,Sonar,ObjectFinalizeOverridenCheck
+1,freecs.util.logger,freecs-1.3.20100406/src/freecs/util/logger/LogWriterBenchmark.java,2,27,public static fields should be constant,Sonar,PublicStaticFieldShouldBeFinalCheck
+2,freecs.util.logger,freecs-1.3.20100406/src/freecs/util/logger/LogWriterBenchmark.java,2,28,public static fields should be constant,Sonar,PublicStaticFieldShouldBeFinalCheck
+1,freecs.util.logger,freecs-1.3.20100406/src/freecs/util/logger/LogCleaner.java,2,40,public static fields should be constant,Sonar,PublicStaticFieldShouldBeFinalCheck
+1,freecs.core,freecs-1.3.20100406/src/freecs/core/User.java,2,503,Inappropriate Collection calls should not be made,Sonar,CollectionInappropriateCallsCheck
+2,freecs.core,freecs-1.3.20100406/src/freecs/core/User.java,2,520,Inappropriate Collection calls should not be made,Sonar,CollectionInappropriateCallsCheck
+3,freecs.core,freecs-1.3.20100406/src/freecs/core/User.java,2,1120,equals method overrides should accept Object parameters,Sonar,MethodNamedEqualsCheck
+4,freecs.core,freecs-1.3.20100406/src/freecs/core/User.java,2,1405,The Object.finalize() method should not be overriden,Sonar,ObjectFinalizeOverridenCheck
+1,freecs.util.logger,freecs-1.3.20100406/src/freecs/util/logger/LogFile.java,2,42,Non-thread-safe fields should not be static,Sonar,StaticMultithreadedUnsafeFieldsCheck
+1,freecs.util.logger,freecs-1.3.20100406/src/freecs/util/logger/LogWriter.java,2,39,public static fields should be constant,Sonar,PublicStaticFieldShouldBeFinalCheck
+1,freecs.external,freecs-1.3.20100406/src/freecs/external/WebadminRequestHandler.java,2,129,Exit methods should not be called,Sonar,SystemExitCalledCheck
+1,freecs,freecs-1.3.20100406/src/freecs/Server.java,2,70,public static fields should be constant,Sonar,PublicStaticFieldShouldBeFinalCheck
+2,freecs,freecs-1.3.20100406/src/freecs/Server.java,2,109,public static fields should be constant,Sonar,PublicStaticFieldShouldBeFinalCheck
+3,freecs,freecs-1.3.20100406/src/freecs/Server.java,2,114,Non-thread-safe fields should not be static,Sonar,StaticMultithreadedUnsafeFieldsCheck
+4,freecs,freecs-1.3.20100406/src/freecs/Server.java,2,114,public static fields should be constant,Sonar,PublicStaticFieldShouldBeFinalCheck
+5,freecs,freecs-1.3.20100406/src/freecs/Server.java,2,119,public static fields should be constant,Sonar,PublicStaticFieldShouldBeFinalCheck
+6,freecs,freecs-1.3.20100406/src/freecs/Server.java,2,167,Exit methods should not be called,Sonar,SystemExitCalledCheck
+7,freecs,freecs-1.3.20100406/src/freecs/Server.java,2,1999,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+8,freecs,freecs-1.3.20100406/src/freecs/Server.java,2,1999,public static fields should be constant,Sonar,PublicStaticFieldShouldBeFinalCheck
+9,freecs,freecs-1.3.20100406/src/freecs/Server.java,2,2016,public static fields should be constant,Sonar,PublicStaticFieldShouldBeFinalCheck
+10,freecs,freecs-1.3.20100406/src/freecs/Server.java,2,2017,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+11,freecs,freecs-1.3.20100406/src/freecs/Server.java,2,2017,public static fields should be constant,Sonar,PublicStaticFieldShouldBeFinalCheck
+12,freecs,freecs-1.3.20100406/src/freecs/Server.java,2,2064,Exit methods should not be called,Sonar,SystemExitCalledCheck
+13,freecs,freecs-1.3.20100406/src/freecs/Server.java,2,2092,Exit methods should not be called,Sonar,SystemExitCalledCheck
+14,freecs,freecs-1.3.20100406/src/freecs/Server.java,2,2168,public static fields should be constant,Sonar,PublicStaticFieldShouldBeFinalCheck
+15,freecs,freecs-1.3.20100406/src/freecs/Server.java,2,2169,public static fields should be constant,Sonar,PublicStaticFieldShouldBeFinalCheck
+16,freecs,freecs-1.3.20100406/src/freecs/Server.java,2,2170,public static fields should be constant,Sonar,PublicStaticFieldShouldBeFinalCheck

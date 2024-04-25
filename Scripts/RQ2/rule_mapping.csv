@@ -1,0 +1,78 @@
+﻿rule_type,rule_key,DepCQC,rule
+bug,S2676,AbsOnNegativeCheck,"Neither ""Math.abs"" nor negation should be used on numbers that could be ""MIN_VALUE"""
+bug,S2116,ArrayHashCodeAndToStringCheck,"""hashCode"" and ""toString"" should not be called on array instances"
+bug,S2061,CustomSerializationMethodCheck,Custom serialization method signatures should meet requirements
+bug,S2204,EqualsOnAtomicClassCheck,""".equals()"" should not be used to test the values of ""Atomic"" classes"
+bug,S2066,InnerClassOfNonSerializableCheck,"""Serializable"" inner classes of non-serializable classes should be ""static"""
+bug,S2110,InvalidDateValuesCheck,"Invalid ""Date"" values should not be used"
+bug,S2127,LongBitsToDoubleOnIntCheck,"""Double.longBitsToDouble"" should not be used for ""int"""
+bug,S1201,MethodNamedEqualsCheck,"""equals"" method overrides should accept ""Object"" parameters"
+bug,S2118,NonSerializableWriteCheck,Non-serializable classes should not be written
+bug,S2154,PrimitiveWrappersInTernaryOperatorCheck,Dissimilar primitive wrappers should not be used with the ternary operator without explicit casting
+bug,S2275,PrintfFailCheck,Printf-style format strings should not lead to unexpected behavior at runtime
+bug,S2122,ScheduledThreadPoolExecutorZeroCheck,"""ScheduledThreadPoolExecutor"" should not have 0 core threads"
+bug,S2441,SerializableObjectInSessionCheck,"Non-serializable objects should not be stored in ""HttpSession"" objects"
+bug,S2055,SerializableSuperConstructorCheck,"The non-serializable super class of a ""Serializable"" class should have a no-argument constructor"
+bug,S2885,StaticMultithreadedUnsafeFieldsCheck,Non-thread-safe fields should not be static
+bug,S2276,ThreadSleepCheck,"""wait(...)"" should be used instead of ""Thread.sleep(...)"" when a lock is held"
+bug,S2236,ThreadWaitCallCheck,"Methods ""wait(...)"", ""notify()"" and ""notifyAll()"" should not be called on Thread instances"
+bug,S2225,ToStringReturningNullCheck,"""toString()"" and ""clone()"" methods should not return null"
+bug,S2230,TransactionalMethodVisibilityCheck,"Non-public methods should not be ""@Transactional"""
+bug,S2273,WaitInSynchronizeCheck,"""wait"", ""notify"" and ""notifyAll"" should only be called when a lock is obviously held on an object"
+CODE_SMELL,S2447,BooleanMethodReturnCheck,"Null should not be returned from a ""Boolean"" method"
+CODE_SMELL,S2235,CatchIllegalMonitorStateExceptionCheck,IllegalMonitorStateException should not be caught
+CODE_SMELL,S1215,GarbageCollectorCalledCheck,Execution of the Garbage Collector should be triggered only by the JVM
+CODE_SMELL,S1113,ObjectFinalizeOverridenCheck,The Object.finalize() method should not be overriden
+CODE_SMELL,S2232,ResultSetIsLastCheck,"""ResultSet.isLast()"" should not be used"
+CODE_SMELL,S1147,SystemExitCalledCheck,Exit methods should not be called
+CODE_SMELL,S2274,WaitInWhileLoopCheck,"""Object.wait(...)"" and ""Condition.await(...)"" should be called inside a ""while"" loop"
+CODE_SMELL,S1844,WaitOnConditionCheck,"""Object.wait(...)"" should never be called on objects that implement ""java.util.concurrent.locks.Condition"""
+vulnerability,S2976,FileCreateTempFileCheck,"""File.createTempFile"" should not be used to create a directory"
+vulnerability,S2254,GetRequestedSessionIdCheck,"""HttpServletRequest.getRequestedSessionId()"" should not be used"
+vulnerability,S1444,PublicStaticFieldShouldBeFinalCheck,"""public static"" fields should be constant"
+vulnerability,S2092,SecureCookieCheck,"Cookies should be ""secure"""
+BUG,S2114,CollectionCallingItselfCheck,Collections should not be passed as arguments to their own methods
+BUG,S2167,CompareToReturnValueCheck,"""compareTo"" should not return ""Integer.MIN_VALUE"""
+BUG,S2097,EqualsArgumentTypeCheck,"""equals(Object obj)"" should test argument type"
+BUG,S1764,IdenticalOperandOnBinaryExpressionCheck,Identical expressions should not be used on both sides of a binary operator
+BUG,S2222,LocksNotUnlockedCheck,Locks should be released
+BUG,S1143,ReturnInFinallyCheck,"Jump statements should not occur in ""finally"" blocks"
+BUG,S1860,SynchronizationOnStringOrBoxedCheck,Synchronization should not be based on Strings or boxed primitives
+BUG,S1217,ThreadRunCheck,"""Thread.run()"" should not be called directly"
+BUG,S2123,UselessIncrementCheck,Values should not be uselessly incremented
+CODE_SMELL,S2250,CollectionMethodsWithLinearComplexityCheck,Collection methods with O(n) performance should be used carefully
+CODE_SMELL,S2178,NonShortCircuitLogicCheck,Short-circuit logic should be used in boolean contexts
+CODE_SMELL,S2696,StaticFieldUpateCheck,"Instance methods should not write to ""static"" fields"
+CODE_SMELL,S2442,SynchronizedLockCheck,"""Lock"" objects should not be ""synchronized"""
+CODE_SMELL,S2112,URLHashCodeAndEqualsCheck,"""URL.hashCode"" and ""URL.equals"" should be avoided"
+bug,S2252,ForLoopFalseConditionCheck,Loop conditions should be true at least once
+bug,S2151,RunFinalizersCheck,"""runFinalizersOnExit"" should not be called"
+bug,S2226,ServletInstanceFieldCheck,Servlets should not have mutable instance fields
+BUG,S1849,HasNextCallingNextCheck,"""Iterator.hasNext()"" should not call ""Iterator.next()"""
+BUG,S2109,ReflectionOnNonRuntimeAnnotationCheck,Reflection should not be used to check non-runtime annotations
+BUG,S2175,CollectionInappropriateCallsCheck,"Inappropriate ""Collection"" calls should not be made"
+CODE_SMELL,S128,SwitchCasesWithoutBreakCheck,"Switch cases should end with an unconditional ""break"" statement"
+CODE_SMELL,S888,ForLoopTerminationConditionCheck,"Equality operators should not be used in ""for"" loop termination conditions"
+CODE_SMELL,S2681,MultilineBlocksCurlyBracesCheck,Multiline blocks should be enclosed in curly braces
+VULNERABILITY,S2386,PublicStaticMutableMembersCheck,"Mutable fields should not be ""public static"""
+BUG,S1872,ClassComparedByNameCheck,Classes should not be compared by name
+VULNERABILITY,S2277,RSAUsesOAEPCheck,Cryptographic RSA algorithms should always incorporate OAEP (Optimal Asymmetric Encryption Padding)
+BUG,S2183,ShiftOnIntOrLongCheck,Ints and longs should not be shifted by zero or more than their number of bits-1
+BUG,S2677,UnusedReturnedDataCheck,"""read"" and ""readLine"" return values should be used"
+CODE_SMELL,S2438,ThreadAsRunnableArgumentCheck,"""Threads"" should not be used where ""Runnables"" are expected"
+BUG,S2251,ForLoopIncrementSignCheck,"A ""for"" loop update clause should move the counter in the right direction"
+BUG,S2674,IgnoredStreamReturnValueCheck,The value returned from a stream read should be checked
+VULNERABILITY,S2077,SQLInjectionCheck,Executing SQL queries is security-sensitive
+,S2095,CloseResource,Resources should be closed
+,S1862,EmptyIfStmt,"Related ""if/else if"" statements should not have the same condition"
+,S1206,OverrideBothEqualsAndHashcode,"""equals(Object obj)"" and ""hashCode()"" should be overridden in pairs"
+,S1221,AvoidFieldNameMatchingMethodName,"Methods should not be named ""hashcode"" or ""equal"""
+,S1219,NonCaseLabelInSwitchStatement,"""switch"" statements should not contain non-case labels"
+,S1114,FinalizeDoesNotCallSuperFinalize,"""super.finalize()"" should be called at the end of ""Object.finalize()"" implementations"
+,S1111,AvoidCallingFinalize,The Object.finalize() method should not be called
+,S1181,AvoidCatchingThrowable,Throwable and Error should not be caught
+,S2157,ProperCloneImplementation,"""Cloneables"" should implement ""clone"""
+,S2695,CheckResultSet,"""PreparedStatement"" and ""ResultSet"" methods should be called with valid indices"
+,S1244,DontUseFloatTypeForLoopIndices,Floating point numbers should not be tested for equality
+,S2111,AvoidDecimalLiteralsInBigDecimalConstructor,"""BigDecimal(double)"" should not be used"
+,S1148,AvoidPrintStackTrace,Throwable.printStackTrace(...) should not be called

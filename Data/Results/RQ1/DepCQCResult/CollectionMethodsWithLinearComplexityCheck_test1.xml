@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file name=".\CollectionMethodsWithLinearComplexity.java">
+<violation beginline="9" endline="9" begincolumn="34" endcolumn="45" rule="CollectionMethodsWithLinearComplexityCheck" ruleset="Sonar" class="A" method="foo" priority="2">
+Collection methods with O(n) performance should be used carefully
+</violation>
+<violation beginline="27" endline="27" begincolumn="5" endcolumn="21" rule="CollectionMethodsWithLinearComplexityCheck" ruleset="Sonar" class="ArrayListUsage" method="arrayList" priority="2">
+Collection methods with O(n) performance should be used carefully
+</violation>
+<violation beginline="28" endline="28" begincolumn="5" endcolumn="21" rule="CollectionMethodsWithLinearComplexityCheck" ruleset="Sonar" class="ArrayListUsage" method="arrayList" priority="2">
+Collection methods with O(n) performance should be used carefully
+</violation>
+<violation beginline="30" endline="30" begincolumn="5" endcolumn="19" rule="CollectionMethodsWithLinearComplexityCheck" ruleset="Sonar" class="ArrayListUsage" method="arrayList" priority="2">
+Collection methods with O(n) performance should be used carefully
+</violation>
+<violation beginline="31" endline="31" begincolumn="5" endcolumn="19" rule="CollectionMethodsWithLinearComplexityCheck" ruleset="Sonar" class="ArrayListUsage" method="arrayList" priority="2">
+Collection methods with O(n) performance should be used carefully
+</violation>
+<violation beginline="49" endline="49" begincolumn="5" endcolumn="21" rule="CollectionMethodsWithLinearComplexityCheck" ruleset="Sonar" class="ConcurrentLinkedQueueUsage" method="linkedQeue" priority="2">
+Collection methods with O(n) performance should be used carefully
+</violation>
+<violation beginline="50" endline="50" begincolumn="5" endcolumn="21" rule="CollectionMethodsWithLinearComplexityCheck" ruleset="Sonar" class="ConcurrentLinkedQueueUsage" method="linkedQeue" priority="2">
+Collection methods with O(n) performance should be used carefully
+</violation>
+<violation beginline="52" endline="52" begincolumn="5" endcolumn="16" rule="CollectionMethodsWithLinearComplexityCheck" ruleset="Sonar" class="ConcurrentLinkedQueueUsage" method="linkedQeue" priority="2">
+Collection methods with O(n) performance should be used carefully
+</violation>
+<violation beginline="53" endline="53" begincolumn="5" endcolumn="16" rule="CollectionMethodsWithLinearComplexityCheck" ruleset="Sonar" class="ConcurrentLinkedQueueUsage" method="linkedQeue" priority="2">
+Collection methods with O(n) performance should be used carefully
+</violation>
+<violation beginline="71" endline="71" begincolumn="5" endcolumn="21" rule="CollectionMethodsWithLinearComplexityCheck" ruleset="Sonar" class="ConcurrentLinkedDequeUsage" method="deque" priority="2">
+Collection methods with O(n) performance should be used carefully
+</violation>
+<violation beginline="72" endline="72" begincolumn="5" endcolumn="21" rule="CollectionMethodsWithLinearComplexityCheck" ruleset="Sonar" class="ConcurrentLinkedDequeUsage" method="deque" priority="2">
+Collection methods with O(n) performance should be used carefully
+</violation>
+<violation beginline="74" endline="74" begincolumn="5" endcolumn="16" rule="CollectionMethodsWithLinearComplexityCheck" ruleset="Sonar" class="ConcurrentLinkedDequeUsage" method="deque" priority="2">
+Collection methods with O(n) performance should be used carefully
+</violation>
+<violation beginline="75" endline="75" begincolumn="5" endcolumn="16" rule="CollectionMethodsWithLinearComplexityCheck" ruleset="Sonar" class="ConcurrentLinkedDequeUsage" method="deque" priority="2">
+Collection methods with O(n) performance should be used carefully
+</violation>
+<violation beginline="93" endline="93" begincolumn="5" endcolumn="21" rule="CollectionMethodsWithLinearComplexityCheck" ruleset="Sonar" class="CopyOnWriteArrayListUsage" method="cowList" priority="2">
+Collection methods with O(n) performance should be used carefully
+</violation>
+<violation beginline="94" endline="94" begincolumn="5" endcolumn="21" rule="CollectionMethodsWithLinearComplexityCheck" ruleset="Sonar" class="CopyOnWriteArrayListUsage" method="cowList" priority="2">
+Collection methods with O(n) performance should be used carefully
+</violation>
+<violation beginline="96" endline="96" begincolumn="5" endcolumn="16" rule="CollectionMethodsWithLinearComplexityCheck" ruleset="Sonar" class="CopyOnWriteArrayListUsage" method="cowList" priority="2">
+Collection methods with O(n) performance should be used carefully
+</violation>
+<violation beginline="97" endline="97" begincolumn="5" endcolumn="16" rule="CollectionMethodsWithLinearComplexityCheck" ruleset="Sonar" class="CopyOnWriteArrayListUsage" method="cowList" priority="2">
+Collection methods with O(n) performance should be used carefully
+</violation>
+<violation beginline="99" endline="99" begincolumn="5" endcolumn="19" rule="CollectionMethodsWithLinearComplexityCheck" ruleset="Sonar" class="CopyOnWriteArrayListUsage" method="cowList" priority="2">
+Collection methods with O(n) performance should be used carefully
+</violation>
+<violation beginline="100" endline="100" begincolumn="5" endcolumn="19" rule="CollectionMethodsWithLinearComplexityCheck" ruleset="Sonar" class="CopyOnWriteArrayListUsage" method="cowList" priority="2">
+Collection methods with O(n) performance should be used carefully
+</violation>
+<violation beginline="118" endline="118" begincolumn="5" endcolumn="21" rule="CollectionMethodsWithLinearComplexityCheck" ruleset="Sonar" class="CopyOnWriteArraySetUsage" method="cowSet" priority="2">
+Collection methods with O(n) performance should be used carefully
+</violation>
+<violation beginline="119" endline="119" begincolumn="5" endcolumn="21" rule="CollectionMethodsWithLinearComplexityCheck" ruleset="Sonar" class="CopyOnWriteArraySetUsage" method="cowSet" priority="2">
+Collection methods with O(n) performance should be used carefully
+</violation>
+<violation beginline="121" endline="121" begincolumn="5" endcolumn="16" rule="CollectionMethodsWithLinearComplexityCheck" ruleset="Sonar" class="CopyOnWriteArraySetUsage" method="cowSet" priority="2">
+Collection methods with O(n) performance should be used carefully
+</violation>
+<violation beginline="122" endline="122" begincolumn="5" endcolumn="16" rule="CollectionMethodsWithLinearComplexityCheck" ruleset="Sonar" class="CopyOnWriteArraySetUsage" method="cowSet" priority="2">
+Collection methods with O(n) performance should be used carefully
+</violation>
+<violation beginline="124" endline="124" begincolumn="5" endcolumn="19" rule="CollectionMethodsWithLinearComplexityCheck" ruleset="Sonar" class="CopyOnWriteArraySetUsage" method="cowSet" priority="2">
+Collection methods with O(n) performance should be used carefully
+</violation>
+<violation beginline="125" endline="125" begincolumn="5" endcolumn="19" rule="CollectionMethodsWithLinearComplexityCheck" ruleset="Sonar" class="CopyOnWriteArraySetUsage" method="cowSet" priority="2">
+Collection methods with O(n) performance should be used carefully
+</violation>
+<violation beginline="143" endline="143" begincolumn="5" endcolumn="21" rule="CollectionMethodsWithLinearComplexityCheck" ruleset="Sonar" class="LinkedListUsage" method="arrayList" priority="2">
+Collection methods with O(n) performance should be used carefully
+</violation>
+<violation beginline="144" endline="144" begincolumn="5" endcolumn="21" rule="CollectionMethodsWithLinearComplexityCheck" ruleset="Sonar" class="LinkedListUsage" method="arrayList" priority="2">
+Collection methods with O(n) performance should be used carefully
+</violation>
+<violation beginline="146" endline="146" begincolumn="5" endcolumn="16" rule="CollectionMethodsWithLinearComplexityCheck" ruleset="Sonar" class="LinkedListUsage" method="arrayList" priority="2">
+Collection methods with O(n) performance should be used carefully
+</violation>
+<violation beginline="147" endline="147" begincolumn="5" endcolumn="16" rule="CollectionMethodsWithLinearComplexityCheck" ruleset="Sonar" class="LinkedListUsage" method="arrayList" priority="2">
+Collection methods with O(n) performance should be used carefully
+</violation>
+<violation beginline="167" endline="167" begincolumn="5" endcolumn="22" rule="CollectionMethodsWithLinearComplexityCheck" ruleset="Sonar" class="Coverage" method="g" priority="2">
+Collection methods with O(n) performance should be used carefully
+</violation>
+<violation beginline="183" endline="183" begincolumn="5" endcolumn="21" rule="CollectionMethodsWithLinearComplexityCheck" ruleset="Sonar" class="Assignments" method="f" priority="2">
+Collection methods with O(n) performance should be used carefully
+</violation>
+<violation beginline="184" endline="184" begincolumn="5" endcolumn="21" rule="CollectionMethodsWithLinearComplexityCheck" ruleset="Sonar" class="Assignments" method="f" priority="2">
+Collection methods with O(n) performance should be used carefully
+</violation>
+<violation beginline="185" endline="185" begincolumn="5" endcolumn="21" rule="CollectionMethodsWithLinearComplexityCheck" ruleset="Sonar" class="Assignments" method="f" priority="2">
+Collection methods with O(n) performance should be used carefully
+</violation>
+<violation beginline="186" endline="186" begincolumn="5" endcolumn="19" rule="CollectionMethodsWithLinearComplexityCheck" ruleset="Sonar" class="Assignments" method="f" priority="2">
+Collection methods with O(n) performance should be used carefully
+</violation>
+<violation beginline="190" endline="190" begincolumn="5" endcolumn="21" rule="CollectionMethodsWithLinearComplexityCheck" ruleset="Sonar" class="Assignments" method="f" priority="2">
+Collection methods with O(n) performance should be used carefully
+</violation>
+<violation beginline="192" endline="192" begincolumn="5" endcolumn="19" rule="CollectionMethodsWithLinearComplexityCheck" ruleset="Sonar" class="Assignments" method="f" priority="2">
+Collection methods with O(n) performance should be used carefully
+</violation>
+</file>
+

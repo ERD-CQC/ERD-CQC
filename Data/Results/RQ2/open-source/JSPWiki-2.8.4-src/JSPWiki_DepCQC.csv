@@ -1,0 +1,36 @@
+﻿Problem,Package,File,Priority,Line,Description,Rule set,Rule
+1,com.ecyrd.jspwiki,JSPWiki-2.8.4-src/src/com/ecyrd/jspwiki/WikiContext.java,2,653,toString() and clone() methods should not return null,Sonar,ToStringReturningNullCheck
+1,com.ecyrd.jspwiki.auth,JSPWiki-2.8.4-src/src/com/ecyrd/jspwiki/auth/SessionMonitor.java,2,273,Inappropriate Collection calls should not be made,Sonar,CollectionInappropriateCallsCheck
+1,com.ecyrd.jspwiki.auth.login,JSPWiki-2.8.4-src/src/com/ecyrd/jspwiki/auth/login/CookieAssertionLoginModule.java,2,150,Cookies should be secure,Sonar,SecureCookieCheck
+2,com.ecyrd.jspwiki.auth.login,JSPWiki-2.8.4-src/src/com/ecyrd/jspwiki/auth/login/CookieAssertionLoginModule.java,2,163,Cookies should be secure,Sonar,SecureCookieCheck
+1,com.ecyrd.jspwiki.auth.login,JSPWiki-2.8.4-src/src/com/ecyrd/jspwiki/auth/login/CookieAuthenticationLoginModule.java,2,251,Cookies should be secure,Sonar,SecureCookieCheck
+2,com.ecyrd.jspwiki.auth.login,JSPWiki-2.8.4-src/src/com/ecyrd/jspwiki/auth/login/CookieAuthenticationLoginModule.java,2,300,Cookies should be secure,Sonar,SecureCookieCheck
+1,com.ecyrd.jspwiki,JSPWiki-2.8.4-src/src/com/ecyrd/jspwiki/WikiEngine.java,2,439,Instance methods should not write to static fields,Sonar,StaticFieldUpateCheck
+1,com.ecyrd.jspwiki.content,JSPWiki-2.8.4-src/src/com/ecyrd/jspwiki/content/Exporter.java,2,420,Exit methods should not be called,Sonar,SystemExitCalledCheck
+2,com.ecyrd.jspwiki.content,JSPWiki-2.8.4-src/src/com/ecyrd/jspwiki/content/Exporter.java,2,478,Exit methods should not be called,Sonar,SystemExitCalledCheck
+3,com.ecyrd.jspwiki.content,JSPWiki-2.8.4-src/src/com/ecyrd/jspwiki/content/Exporter.java,2,483,Exit methods should not be called,Sonar,SystemExitCalledCheck
+4,com.ecyrd.jspwiki.content,JSPWiki-2.8.4-src/src/com/ecyrd/jspwiki/content/Exporter.java,2,501,Exit methods should not be called,Sonar,SystemExitCalledCheck
+5,com.ecyrd.jspwiki.content,JSPWiki-2.8.4-src/src/com/ecyrd/jspwiki/content/Exporter.java,2,506,Exit methods should not be called,Sonar,SystemExitCalledCheck
+6,com.ecyrd.jspwiki.content,JSPWiki-2.8.4-src/src/com/ecyrd/jspwiki/content/Exporter.java,2,513,Exit methods should not be called,Sonar,SystemExitCalledCheck
+1,com.ecyrd.jspwiki.event,JSPWiki-2.8.4-src/src/com/ecyrd/jspwiki/event/WikiEventManager.java,2,583,Collection methods with O(n) performance should be used carefully,Sonar,CollectionMethodsWithLinearComplexityCheck
+1,com.ecyrd.jspwiki.plugin,JSPWiki-2.8.4-src/src/com/ecyrd/jspwiki/plugin/PageViewPlugin.java,2,153,Instance methods should not write to static fields,Sonar,StaticFieldUpateCheck
+1,com.ecyrd.jspwiki.plugin,JSPWiki-2.8.4-src/src/com/ecyrd/jspwiki/plugin/WeblogPlugin.java,2,254,Invalid Date values should not be used,Sonar,InvalidDateValuesCheck
+2,com.ecyrd.jspwiki.plugin,JSPWiki-2.8.4-src/src/com/ecyrd/jspwiki/plugin/WeblogPlugin.java,2,255,Invalid Date values should not be used,Sonar,InvalidDateValuesCheck
+1,com.ecyrd.jspwiki.tags,JSPWiki-2.8.4-src/src/com/ecyrd/jspwiki/tags/CookieTag.java,2,267,Cookies should be secure,Sonar,SecureCookieCheck
+2,com.ecyrd.jspwiki.tags,JSPWiki-2.8.4-src/src/com/ecyrd/jspwiki/tags/CookieTag.java,2,429,Cookies should be secure,Sonar,SecureCookieCheck
+1,com.ecyrd.jspwiki.ui,JSPWiki-2.8.4-src/src/com/ecyrd/jspwiki/ui/WikiJSPFilter.java,2,371,toString() and clone() methods should not return null,Sonar,ToStringReturningNullCheck
+1,com.ecyrd.jspwiki.util,JSPWiki-2.8.4-src/src/com/ecyrd/jspwiki/util/HttpUtil.java,2,65,Cookies should be secure,Sonar,SecureCookieCheck
+1,com.ecyrd.jspwiki.util,JSPWiki-2.8.4-src/src/com/ecyrd/jspwiki/util/Serializer.java,2,95,Non-serializable classes should not be written,Sonar,NonSerializableWriteCheck
+1,com.ecyrd.jspwiki.util,JSPWiki-2.8.4-src/src/com/ecyrd/jspwiki/util/UtilJ2eeCompat.java,2,85,Short-circuit logic should be used in boolean contexts,Sonar,NonShortCircuitLogicCheck
+1,com.ecyrd.jspwiki.workflow,JSPWiki-2.8.4-src/src/com/ecyrd/jspwiki/workflow/Workflow.java,2,207,Mutable fields should not be public static,Sonar,PublicStaticMutableMembersCheck
+2,com.ecyrd.jspwiki.workflow,JSPWiki-2.8.4-src/src/com/ecyrd/jspwiki/workflow/Workflow.java,2,743,Collection methods with O(n) performance should be used carefully,Sonar,CollectionMethodsWithLinearComplexityCheck
+1,com.ecyrd.jspwiki,JSPWiki-2.8.4-src/tests/com/ecyrd/jspwiki/TestJDBCDataSource.java,2,161,Instance methods should not write to static fields,Sonar,StaticFieldUpateCheck
+1,com.ecyrd.jspwiki,JSPWiki-2.8.4-src/tests/com/ecyrd/jspwiki/WikiSessionTest.java,2,159,Cookies should be secure,Sonar,SecureCookieCheck
+2,com.ecyrd.jspwiki,JSPWiki-2.8.4-src/tests/com/ecyrd/jspwiki/WikiSessionTest.java,2,192,Cookies should be secure,Sonar,SecureCookieCheck
+3,com.ecyrd.jspwiki,JSPWiki-2.8.4-src/tests/com/ecyrd/jspwiki/WikiSessionTest.java,2,257,Cookies should be secure,Sonar,SecureCookieCheck
+1,com.ecyrd.jspwiki.auth.login,JSPWiki-2.8.4-src/tests/com/ecyrd/jspwiki/auth/login/CookieAssertionLoginModuleTest.java,2,63,Cookies should be secure,Sonar,SecureCookieCheck
+2,com.ecyrd.jspwiki.auth.login,JSPWiki-2.8.4-src/tests/com/ecyrd/jspwiki/auth/login/CookieAssertionLoginModuleTest.java,2,89,Cookies should be secure,Sonar,SecureCookieCheck
+1,com.ecyrd.jspwiki.auth.user,JSPWiki-2.8.4-src/tests/com/ecyrd/jspwiki/auth/user/JDBCUserDatabaseTest.java,2,82,Executing SQL queries is security-sensitive,Sonar,SQLInjectionCheck
+1,com.ecyrd.jspwiki.plugin,JSPWiki-2.8.4-src/tests/com/ecyrd/jspwiki/plugin/JavaScriptPlugin.java,2,27,Instance methods should not write to static fields,Sonar,StaticFieldUpateCheck
+1,com.ecyrd.jspwiki.plugin,JSPWiki-2.8.4-src/tests/com/ecyrd/jspwiki/plugin/SamplePlugin.java,2,44,Instance methods should not write to static fields,Sonar,StaticFieldUpateCheck
+1,com.ecyrd.jspwiki.web,JSPWiki-2.8.4-src/tests/com/ecyrd/jspwiki/web/TestContainer.java,2,331,Exit methods should not be called,Sonar,SystemExitCalledCheck

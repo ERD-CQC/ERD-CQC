@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<file name=".\BooleanMethodReturnCheck.java">
+<violation beginline="10" endline="10" begincolumn="5" endcolumn="16" rule="BooleanMethodReturnCheck" ruleset="Sonar" package="javax.annotation" class="A" method="myMethod" priority="1">
+Null should not be returned from a Boolean method
+</violation>
+<violation beginline="34" endline="34" begincolumn="9" endcolumn="20" rule="BooleanMethodReturnCheck" ruleset="Sonar" package="javax.annotation" class="B$C" method="myInnerMethod" priority="1">
+Null should not be returned from a Boolean method
+</violation>
+<violation beginline="40" endline="40" begincolumn="5" endcolumn="16" rule="BooleanMethodReturnCheck" ruleset="Sonar" package="javax.annotation" class="B" method="myOtherMethod" priority="1">
+Null should not be returned from a Boolean method
+</violation>
+</file>
+
