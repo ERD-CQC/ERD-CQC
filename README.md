@@ -128,6 +128,8 @@ The file `RQ3.csv` contains detailed counts of false negatives and false positiv
 
 `RQ4.csv` presents the results of normalization and comprehensive calculation of various metrics across dimensions such as Complexity, Size, Security, Reliability, Maintainability, and Issue.
 
+`Metric_details.md` contains detailed explanations and calculations of the metrics.
+
 ## Scripts
 
 ### RQ2
